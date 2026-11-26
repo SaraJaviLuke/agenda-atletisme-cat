@@ -223,12 +223,14 @@
         <li>Instal·la l’app gratuïta <b>ntfy</b>:
           <a href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a> ·
           <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a></li>
-        <li>Obre-la, toca <b>+</b> per subscriure’t a un tema i enganxa-hi el nom del canal que vulguis:</li>
+        <li>Obre-la, toca <b>+</b> per subscriure’t a un tema i enganxa-hi el nom del canal que vulguis.</li>
+        <li>Quan et demani permís per enviar notificacions, toca <b>Permet</b>.</li>
+        <li>Tanca l’app: amb ntfy oberta a la pantalla, l’avís no salta.</li>
       </ol>
       ${rows.map(([k, l]) => `<div class="calrow"><b>${l}</b>
         <code>${NTFY_PREFIX}-${k}</code>
         <button class="btn primary" data-copy="${NTFY_PREFIX}-${k}">Copia el nom</button></div>`).join("")}
-      <p class="cs">No cal cap compte. Rebràs un avís quan surti una competició nova, un horari o una llista d’inscrits, o si canvia una data.</p>
+      <p class="cs">No cal cap compte. Rebràs un avís quan surti una competició nova, un horari o una llista d’inscrits, o si canvia una data. Tria «Totes» o les categories soltes, no les dues coses, o rebràs els avisos repetits.</p>
     </details>`;
   }
   function bindCopy(root) {
