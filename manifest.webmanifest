@@ -1,7 +1,7 @@
 {
   "name": "Agenda Atletisme CAT",
   "short_name": "Atletisme CAT",
-  "description": "Competicions Sub18, Sub20, Sub23 i Absolut de la FCA",
+  "description": "Competicions Sub16, Sub18, Sub20, Sub23 i Absolut de la FCA",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

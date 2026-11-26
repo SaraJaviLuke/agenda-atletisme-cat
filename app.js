@@ -1,5 +1,5 @@
 (() => {
-  const CATS = [["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"]];
+  const CATS = [["sub16", "Sub16"], ["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"]];
   const CAT_LABEL = Object.fromEntries(CATS);
   const TITLES = { agenda: "Competicions", news: "Novetats", cal: "Calendari", style: "Estil" };
   const LS = "agendaAtletismeCat:v1";

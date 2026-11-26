@@ -1,6 +1,6 @@
 # Agenda Atletisme CAT
 
-Web pública con las competiciones de la [Federació Catalana d'Atletisme](https://fcatletisme.cat) para **Sub18, Sub20, Sub23 y Absolut**, filtrables por modalidad (Pista Coberta, Aire Lliure, Cros, Ruta, Marxa…).
+Web pública con las competiciones de la [Federació Catalana d'Atletisme](https://fcatletisme.cat) para **Sub16, Sub18, Sub20, Sub23 y Absolut**, filtrables por modalidad (Pista Coberta, Aire Lliure, Cros, Ruta, Marxa…).
 
 - **Agenda**: competiciones próximas, con el estado del horario (publicado / pendiente) y los documentos (reglamento, inscritos, resultados).
 - **Novedades**: competiciones nuevas, horarios publicados, documentos nuevos y cambios de fecha o lugar.

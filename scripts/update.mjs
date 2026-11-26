@@ -1,5 +1,5 @@
 // Descarga las competiciones de la Federació Catalana d'Atletisme (API pública de
-// The Events Calendar), detecta categorías (Sub18/Sub20/Sub23/Absolut), horarios
+// The Events Calendar), detecta categorías (Sub16/Sub18/Sub20/Sub23/Absolut), horarios
 // publicados y cambios, y genera data/*.json y cal/*.ics para la web.
 // Sin dependencias: Node 18+.
 
@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const API = "https://fcatletisme.cat/wp-json/tribe/events/v1/events";
-const CATS = ["sub18", "sub20", "sub23", "absolut"];
+const CATS = ["sub16", "sub18", "sub20", "sub23", "absolut"];
 const MAX_CHANGES = 400;
 
 const fmt = (d) => d.toISOString().slice(0, 10);
@@ -33,7 +33,7 @@ export function detectCategories(title) {
   const re = /\b(?:sub|s)\s?-?(\d{1,2})\b((?:\s?(?:-|,|\bi\b|\by\b|\/)\s?(?:sub|s)?\s?\d{1,2}\b)*)/g;
   for (const m of t.matchAll(re)) {
     const nums = [m[1], ...(m[2].match(/\d{1,2}/g) || [])];
-    for (const n of nums) if (["18", "20", "23"].includes(n)) found.add("sub" + n);
+    for (const n of nums) if (["16", "18", "20", "23"].includes(n)) found.add("sub" + n);
   }
   return CATS.filter((c) => found.has(c));
 }
@@ -137,7 +137,7 @@ function diff(prev, next, now) {
 // Un canal per categoria i un amb totes. Només s'envia si NTFY_PREFIX està definit (ho fa el workflow).
 const NTFY_TITLES = { nova: "Nova competició", horari: "Horari publicat", inscrits: "Llista d'inscrits publicada", data: "Canvi de data" };
 const MESOS = ["de gener", "de febrer", "de març", "d'abril", "de maig", "de juny", "de juliol", "d'agost", "de setembre", "d'octubre", "de novembre", "de desembre"];
-const CAT_NAMES = { sub18: "Sub18", sub20: "Sub20", sub23: "Sub23", absolut: "Absolut" };
+const CAT_NAMES = { sub16: "Sub16", sub18: "Sub18", sub20: "Sub20", sub23: "Sub23", absolut: "Absolut" };
 
 async function notify(changes) {
   const prefix = process.env.NTFY_PREFIX;
@@ -235,12 +235,12 @@ async function main() {
   await fs.writeFile(changesPath, JSON.stringify(changes, null, 1));
 
   const stamp = now.replace(/[-:]/g, "").replace(/\.\d+/, "");
-  await fs.writeFile(path.join(calDir, "totes.ics"), buildICS(relevant, "Atletisme CAT · Sub18-Sub20-Sub23-Absolut", stamp));
+  await fs.writeFile(path.join(calDir, "totes.ics"), buildICS(relevant, "Atletisme CAT · Sub16-Sub18-Sub20-Sub23-Absolut", stamp));
   for (const c of CATS) {
     const label = c === "absolut" ? "Absolut" : "Sub" + c.slice(3);
     await fs.writeFile(path.join(calDir, `${c}.ics`), buildICS(relevant.filter((e) => e.cats.includes(c)), `Atletisme CAT · ${label}`, stamp));
   }
-  console.log(`Eventos: ${events.length} (con categoría Sub18/20/23/Absolut: ${relevant.length})`);
+  console.log(`Eventos: ${events.length} (con categoría Sub16/18/20/23/Absolut: ${relevant.length})`);
 }
 
 if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1]))) {

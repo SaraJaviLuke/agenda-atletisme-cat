@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agenda-atletisme-cat//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atletisme CAT · Sub16
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:fca-83655@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Campionat d’Espanya de Clubs Sub16 ST
+LOCATION:Antequera (Màlaga)
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-st/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-st/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87361@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Control Sub 16-18 ST (1a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n✅ Horari 
+ publicat\nHorari modificat: https://fcatletisme.cat/wp-content/uploads/20
+ 26/11/reg-20262027-controlssub1618pc.pdf\nAtletes inscrits: https://fcatl
+ etisme.cat/wp-content/uploads/2026/11/reg-20261129-controlssub1618pcinscr
+ its.pdf\nhttps://fcatletisme.cat/event/control-sub-16-18-st-1a-jornada/
+URL:https://fcatletisme.cat/event/control-sub-16-18-st-1a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87373@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Control de Proves Combinades Sub 16-18 ST
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-de-proves-combinades-sub-1
+ 6-18-st/
+URL:https://fcatletisme.cat/event/control-de-proves-combinades-sub-16-18-s
+ t/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87375@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Control Sub 16-18 ST (2a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-sub-16-18-st-2a-jornada/
+URL:https://fcatletisme.cat/event/control-sub-16-18-st-2a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-86659@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Campionat de Catalunya de Cros (totes les categories) (11è Cros AT
+ E de Tortosa – GP Eduard Fornós)
+LOCATION:Tortosa
+DESCRIPTION:Categories: sub16\, sub18\, sub20\, sub23\, absolut\nCros · Mà
+ ster\n⏳ Horari pendent\nhttps://fcatletisme.cat/event/campionat-de-catalu
+ nya-de-cros-11e-cros-ate-de-tortosa-gp-eduard-fornos/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-cros-11e-cros-
+ ate-de-tortosa-gp-eduard-fornos/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87380@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Control Sub 16-18 ST (3a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-sub-16-18-st-3a-jornada/
+URL:https://fcatletisme.cat/event/control-sub-16-18-st-3a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87387@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Control Sub 16-18 ST (4a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-sub-16-18-st-4a-jornada/
+URL:https://fcatletisme.cat/event/control-sub-16-18-st-4a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89489@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:1a Jornada Llançaments Llargs d’Hivern Sub14-16
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-sub14-
+ 16/
+URL:https://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-su
+ b14-16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87390@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270118
+SUMMARY:Campionat de Catalunya de Proves Combinades Sub16 ST
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinade
+ s-sub16-st-2/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
+ des-sub16-st-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87389@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Control Sub 16-18 (5a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-sub-16-18-5a-jornada-2/
+URL:https://fcatletisme.cat/event/control-sub-16-18-5a-jornada-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87395@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:European DNA Meeting Clubs Promoció Mixt ST (sub18 i sub16)
+LOCATION:Zaragoza\, Zaragoza
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta\n⏳ Horari pendent\nht
+ tps://fcatletisme.cat/event/european-dna-meeting-clubs-promocio-mixt-st-s
+ ub18-i-sub16/
+URL:https://fcatletisme.cat/event/european-dna-meeting-clubs-promocio-mixt
+ -st-sub18-i-sub16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87398@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Control Sub 16-18 ST (6a Jornada)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/control-sub-16-18-st-6a-jornada/
+URL:https://fcatletisme.cat/event/control-sub-16-18-st-6a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-86664@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Campionat d’Espanya de Cros per Federacions Autonòmiques Sub 16-18
+  (CSD)
+LOCATION:Ribadavia (Ourense)
+DESCRIPTION:Categories: sub16\, sub18\nCros · Promoció\n⏳ Horari pendent\n
+ https://fcatletisme.cat/event/campionat-despanya-de-cros-per-federacions-
+ autonomiques-sub-16-18-csd-3/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-cros-per-federacio
+ ns-autonomiques-sub-16-18-csd-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87399@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Campionat de Catalunya de Relleus Sub 12-14-16-18 ST (Eliminatòrie
+ s i Finals)
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\, sub18\nPista Coberta · Promoció\n⏳ Horari 
+ pendent\nhttps://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-
+ sub-12-14-16-18-st-eliminatories-i-finals/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub-12
+ -14-16-18-st-eliminatories-i-finals/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87403@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Campionat de Catalunya Sub16 ST
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-de-catalunya-sub16-st-2/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub16-st-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89493@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:2a Jornada Llançaments Llargs d’Hivern Sub14-16
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-sub14-
+ 16/
+URL:https://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-su
+ b14-16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87405@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Campionat de Catalunya de Marxa de Promoció S10-S12-S14-S16 i 5 Km
+  Màster (4t Gran Premi de Marxa de Canet de Mar)
+LOCATION:Canet de Mar
+DESCRIPTION:Categories: sub16\nMarxa · Màster · Promoció\n⏳ Horari pendent
+ \nhttps://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-de-promoc
+ io-s10-s12-s14-s16-i-5-km-master-4t-gran-premi-de-marxa-de-canet-de-mar/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-de-promo
+ cio-s10-s12-s14-s16-i-5-km-master-4t-gran-premi-de-marxa-de-canet-de-mar/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89495@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:3a Jornada Llançaments Llargs d’Hivern Sub14-16
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-sub14-
+ 16/
+URL:https://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-su
+ b14-16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87419@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270215
+SUMMARY:Campionat d’Espanya Sub16 ST
+LOCATION:Antequera (Màlaga)
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-despanya-sub16-st/
+URL:https://fcatletisme.cat/event/campionat-despanya-sub16-st/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89509@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Campionat de Catalunya de Llançaments Llargs Sub16
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs
+ -sub16/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-ll
+ args-sub16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87420@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Campionat d’Espanya de Marxa Absolut-S23 i Màster (Mitja Marató) i
+  S20-S18-S16
+LOCATION:Valencia
+DESCRIPTION:Categories: sub16\, sub18\, sub20\, sub23\, absolut\nMarxa · M
+ àster\n⏳ Horari pendent\nhttps://fcatletisme.cat/event/campionat-despanya
+ -de-marxa-absolut-s23-i-master-mitja-marato-i-s20-s18-s16/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-marxa-absolut-s23-
+ i-master-mitja-marato-i-s20-s18-s16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87421@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Campionat d’Espanya de Marxa per Federacions Autonòmiques S20 i S1
+ 6
+LOCATION:Valencia
+DESCRIPTION:Categories: sub16\, sub20\nMarxa\n⏳ Horari pendent\nhttps://fc
+ atletisme.cat/event/campionat-despanya-de-marxa-per-federacions-autonomiq
+ ues-s20-i-s16/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-marxa-per-federaci
+ ons-autonomiques-s20-i-s16/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89517@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270301
+SUMMARY:Campionat d’Espanya de Llançaments Llargs Sub16-18-20-23 i Absolut
+LOCATION:Barcelona (Estadi Joan Serrahima)\, Estadi Municipal Joan Serrahi
+ ma Camí del Polvorí\, 5-7 - Barcelona
+DESCRIPTION:Categories: sub16\, sub18\, sub20\, sub23\, absolut\nAire Lliu
+ re · Promoció\n⏳ Horari pendent\nhttps://fcatletisme.cat/event/campionat-
+ despanya-de-llancaments-llargs-sub16-18-20-23-i-absolut/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-llancaments-llargs
+ -sub16-18-20-23-i-absolut/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87452@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Campionat de Catalunya de Clubs A Sub16 ST
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-sub16-st
+ -2/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-sub16-
+ st-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-87451@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Campionat de Catalunya de Clubs B Sub16 ST
+LOCATION:Sabadell (Pista Coberta de Catalunya Carme Valero)\, Camí de Can 
+ Quadres\, 190 - Sabadell
+DESCRIPTION:Categories: sub16\nPista Coberta · Promoció\n⏳ Horari pendent\
+ nhttps://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-sub16-st
+ -2/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-sub16-
+ st-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89522@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Campionat de Catalunya de Relleus Sub10-12-14-16 (Eliminatòries)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-12-1
+ 4-16-eliminatories/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-
+ 12-14-16-eliminatories/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89539@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270412
+SUMMARY:Control de Proves Combinades Sub14-16-18
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-de-proves-combinades-sub14-1
+ 6-18/
+URL:https://fcatletisme.cat/event/control-de-proves-combinades-sub14-16-18
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89535@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Control Sub16-18 (1a Jornada)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-sub16-18-1a-jornada/
+URL:https://fcatletisme.cat/event/control-sub16-18-1a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89524@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Campionat de Catalunya de Relleus Sub10-12-14-16 (Final)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-12-1
+ 4-16-final/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-
+ 12-14-16-final/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89541@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Control Sub16-18 (2a Jornada)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-sub16-18-2a-jornada/
+URL:https://fcatletisme.cat/event/control-sub16-18-2a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89554@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Control Sub16-18 (3a Jornada)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-sub16-18-3a-jornada/
+URL:https://fcatletisme.cat/event/control-sub16-18-3a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89560@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Control Sub16-18 (4a Jornada)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-sub16-18-4a-jornada/
+URL:https://fcatletisme.cat/event/control-sub16-18-4a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89570@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Campionat de Catalunya de Clubs Sub16
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub16-6/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub16-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89612@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270517
+SUMMARY:Campionat de Catalunya de Proves Combinades Sub16-18-20-23-Absolut
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\, sub20\, sub23\, absolut\nAire Lliu
+ re · Promoció\n⏳ Horari pendent\nhttps://fcatletisme.cat/event/campionat-
+ de-catalunya-de-proves-combinades-sub16-18-20-23-absolut/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
+ des-sub16-18-20-23-absolut/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89610@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Control Sub16-18 (5a Jornada)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\, sub18\nAire Lliure · Promoció\n⏳ Horari pe
+ ndent\nhttps://fcatletisme.cat/event/control-sub16-18-5a-jornada/
+URL:https://fcatletisme.cat/event/control-sub16-18-5a-jornada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89618@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Campionat de Catalunya Sub16 (Prèvia)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-sub16-previa/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub16-previa/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89641@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Campionat de Catalunya Sub16 (Final)
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-de-catalunya-sub16-final/
+URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub16-final/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89669@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270614
+SUMMARY:Campionat d’Espanya Sub16
+LOCATION:Lugo
+DESCRIPTION:Categories: sub16\nAire Lliure\n⏳ Horari pendent\nhttps://fcat
+ letisme.cat/event/campionat-despanya-sub16-8/
+URL:https://fcatletisme.cat/event/campionat-despanya-sub16-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89852@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271004
+SUMMARY:Campionat d’Espanya de Clubs Sub16
+LOCATION:diferents seus
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-8/
+URL:https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:fca-89788@agenda-atletisme-cat
+DTSTAMP:20261126T151746Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271018
+SUMMARY:Campionat d’Espanya Sub16 per Federacions Autonòmiques
+LOCATION:a designar
+DESCRIPTION:Categories: sub16\nAire Lliure · Promoció\n⏳ Horari pendent\nh
+ ttps://fcatletisme.cat/event/campionat-despanya-sub16-per-federacions-aut
+ onomiques-2/
+URL:https://fcatletisme.cat/event/campionat-despanya-sub16-per-federacions
+ -autonomiques-2/
+END:VEVENT
+END:VCALENDAR

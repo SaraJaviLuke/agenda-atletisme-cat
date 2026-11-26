@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:31:17Z",
+ "updated": "2026-11-26T15:17:46Z",
  "count": 304,
  "events": [
   {
@@ -687,7 +687,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Antequera (Màlaga)",
    "address": "",
@@ -919,6 +921,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -1252,6 +1255,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -1515,6 +1519,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -1725,6 +1730,7 @@
     "Màster"
    ],
    "cats": [
+    "sub16",
     "sub18",
     "sub20",
     "sub23",
@@ -1772,6 +1778,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -2076,6 +2083,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -2097,7 +2105,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": false,
    "venue": "a designar",
    "address": "",
@@ -2182,7 +2192,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
    "address": "Camí de Can Quadres, 190 - Sabadell",
@@ -2268,6 +2280,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -2289,6 +2302,7 @@
     "Pista Coberta"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -2436,6 +2450,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -2481,6 +2496,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": true,
@@ -2503,6 +2519,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": true,
@@ -2690,7 +2707,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
    "address": "Camí de Can Quadres, 190 - Sabadell",
@@ -2710,7 +2729,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": false,
    "venue": "a designar",
    "address": "",
@@ -2773,7 +2794,9 @@
     "Màster",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Canet de Mar",
    "address": "",
@@ -2874,7 +2897,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": false,
    "venue": "a designar",
    "address": "",
@@ -3074,7 +3099,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Antequera (Màlaga)",
    "address": "",
@@ -3094,7 +3121,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -3177,6 +3206,7 @@
     "Màster"
    ],
    "cats": [
+    "sub16",
     "sub18",
     "sub20",
     "sub23",
@@ -3201,6 +3231,7 @@
     "Marxa"
    ],
    "cats": [
+    "sub16",
     "sub20"
    ],
    "championship": true,
@@ -3531,6 +3562,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18",
     "sub20",
     "sub23",
@@ -3980,7 +4012,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
    "address": "Camí de Can Quadres, 190 - Sabadell",
@@ -4000,7 +4034,9 @@
     "Pista Coberta",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
    "address": "Camí de Can Quadres, 190 - Sabadell",
@@ -4158,7 +4194,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -4198,6 +4236,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -4220,6 +4259,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -4339,7 +4379,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -4360,6 +4402,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -4439,6 +4482,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -4560,6 +4604,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -4723,7 +4768,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -4744,6 +4791,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18",
     "sub20",
     "sub23",
@@ -4893,6 +4941,7 @@
     "Promoció"
    ],
    "cats": [
+    "sub16",
     "sub18"
    ],
    "championship": false,
@@ -5032,7 +5081,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -5194,7 +5245,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
@@ -5392,7 +5445,9 @@
    "modalitats": [
     "Aire Lliure"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "Lugo",
    "address": "",
@@ -6186,7 +6241,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "diferents seus",
    "address": "",
@@ -6305,7 +6362,9 @@
     "Aire Lliure",
     "Promoció"
    ],
-   "cats": [],
+   "cats": [
+    "sub16"
+   ],
    "championship": true,
    "venue": "a designar",
    "address": "",
