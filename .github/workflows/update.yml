@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/update.mjs
+        env:
+          NTFY_PREFIX: atletisme-cat-k7x2
       - name: Guardar cambios
         run: |
           if git diff --quiet -- data cal; then echo "Sin cambios"; exit 0; fi

@@ -113,8 +113,8 @@ function normalize(e) {
 
 function diff(prev, next, now) {
   const changes = [];
-  const add = (type, ev, detail) =>
-    changes.push({ at: now, type, id: ev.id, title: ev.title, start: ev.start, cats: ev.cats, modalitats: ev.modalitats, detail });
+  const add = (type, ev, detail, link) =>
+    changes.push({ at: now, type, id: ev.id, title: ev.title, start: ev.start, cats: ev.cats, modalitats: ev.modalitats, detail, url: link || ev.url });
   const prevMap = new Map(prev.map((e) => [e.id, e]));
   for (const ev of next) {
     const p = prevMap.get(ev.id);
@@ -124,13 +124,45 @@ function diff(prev, next, now) {
     const oldUrls = new Set(p.links.map((l) => l.url));
     for (const l of ev.links) {
       if (oldUrls.has(l.url)) continue;
-      add(l.type === "horari" || l.type === "directe" ? "horari" : l.type === "inscrits" ? "inscrits" : "document", ev, l.text);
+      add(l.type === "horari" || l.type === "directe" ? "horari" : l.type === "inscrits" ? "inscrits" : "document", ev, l.text, l.url);
     }
   }
   const today = now.slice(0, 10);
   const nextIds = new Set(next.map((e) => e.id));
   for (const p of prev) if (!nextIds.has(p.id) && p.start >= today) add("eliminada", p, null);
   return changes;
+}
+
+// ---------- Notificacions (ntfy.sh) ----------
+// Un canal per categoria i un amb totes. Només s'envia si NTFY_PREFIX està definit (ho fa el workflow).
+const NTFY_TITLES = { nova: "Nova competició", horari: "Horari publicat", inscrits: "Llista d'inscrits publicada", data: "Canvi de data" };
+const MESOS = ["de gener", "de febrer", "de març", "d'abril", "de maig", "de juny", "de juliol", "d'agost", "de setembre", "d'octubre", "de novembre", "de desembre"];
+const CAT_NAMES = { sub18: "Sub18", sub20: "Sub20", sub23: "Sub23", absolut: "Absolut" };
+
+async function notify(changes) {
+  const prefix = process.env.NTFY_PREFIX;
+  if (!prefix) return;
+  const list = changes.filter((c) => NTFY_TITLES[c.type] && c.cats?.length);
+  const MAX = 25; // per no inundar si la FCA publica molts canvis de cop
+  let sent = 0, failed = 0;
+  for (const c of list.slice(0, MAX)) {
+    const [y, m, dd] = c.start.split("-").map(Number);
+    const lines = [c.title, `${dd} ${MESOS[m - 1]} ${y} · ${c.cats.map((k) => CAT_NAMES[k]).join(", ")}`];
+    if (c.type === "data") lines.push(`Abans: ${c.detail.split(" → ")[0]}`);
+    for (const topic of [...c.cats, "totes"]) {
+      try {
+        const r = await fetch("https://ntfy.sh", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ topic: `${prefix}-${topic}`, title: NTFY_TITLES[c.type], message: lines.join("\n"), click: c.url }),
+        });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        sent++;
+      } catch (e) { failed++; console.error(`ntfy ${topic}: ${e.message}`); }
+      await new Promise((res) => setTimeout(res, 400));
+    }
+  }
+  console.log(`Notificacions: ${sent} enviades, ${failed} fallides${list.length > MAX ? `, ${list.length - MAX} omeses` : ""}`);
 }
 
 // ---------- iCalendar ----------
@@ -191,6 +223,7 @@ async function main() {
   if (prevFile) {
     // Los eventos que ya han pasado y salen de la ventana no cuentan como "eliminados".
     const newChanges = diff(prevFile.events, events, now);
+    await notify(newChanges);
     changes = [...newChanges.reverse(), ...changes].slice(0, MAX_CHANGES);
     console.log(`Cambios detectados: ${newChanges.length}`);
   } else {

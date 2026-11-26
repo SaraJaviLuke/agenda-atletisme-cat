@@ -212,17 +212,46 @@
     const byId = new Map(EVENTS.map((e) => [e.id, e]));
     return CHANGES.filter((c) => matches(byId.get(c.id) || { ...c, links: [], hasHorari: false, venue: "" }));
   }
+  const NTFY_PREFIX = "atletisme-cat-k7x2";
+  let notifOpen = false;
+  function notifCard() {
+    const rows = [["totes", "Totes les categories"], ...CATS.map(([k, l]) => [k, "Només " + l])];
+    return `<details class="card notif"${notifOpen ? " open" : ""}>
+      <summary><span><span class="ct">Rep avisos al mòbil</span><span class="cs">Competicions noves, horaris i llistes d’inscrits</span></span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+      <ol>
+        <li>Instal·la l’app gratuïta <b>ntfy</b>:
+          <a href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a> ·
+          <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a></li>
+        <li>Obre-la, toca <b>+</b> per subscriure’t a un tema i enganxa-hi el nom del canal que vulguis:</li>
+      </ol>
+      ${rows.map(([k, l]) => `<div class="calrow"><b>${l}</b>
+        <code>${NTFY_PREFIX}-${k}</code>
+        <button class="btn primary" data-copy="${NTFY_PREFIX}-${k}">Copia el nom</button></div>`).join("")}
+      <p class="cs">No cal cap compte. Rebràs un avís quan surti una competició nova, un horari o una llista d’inscrits, o si canvia una data.</p>
+    </details>`;
+  }
+  function bindCopy(root) {
+    root.querySelectorAll("[data-copy]").forEach((b) => (b.onclick = async () => {
+      try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "Copiat"; }
+      catch { prompt("Copia aquest text:", b.dataset.copy); }
+    }));
+    const dt = root.querySelector("details.notif");
+    if (dt) dt.ontoggle = () => { notifOpen = dt.open; };
+  }
+
   function renderNews() {
     const list = relevantChanges();
     const byId = new Map(EVENTS.map((e) => [e.id, e]));
     if (!list.length) {
-      $("#tab-news").innerHTML = `<p class="empty">Encara no hi ha novetats amb aquests filtres.<br>Aquí apareixeran les competicions noves, els horaris i les llistes d’inscrits que es publiquin i els canvis de data o lloc.</p>`;
+      $("#tab-news").innerHTML = notifCard() + `<p class="empty">Encara no hi ha novetats amb aquests filtres.<br>Aquí apareixeran les competicions noves, els horaris i les llistes d’inscrits que es publiquin i els canvis de data o lloc.</p>`;
+      bindCopy($("#tab-news"));
       return;
     }
-    $("#tab-news").innerHTML = `<ul class="news">${list.slice(0, 150).map((c) => {
+    $("#tab-news").innerHTML = notifCard() + `<ul class="news">${list.slice(0, 150).map((c) => {
       const e = byId.get(c.id);
       const detail = c.detail ? " · " + esc(c.detail.replace(/(\d{4})-(\d\d)-(\d\d)/g, (_, y, m, dd) => `${+dd}/${+m}`)) : "";
-      const title = e ? `<a class="t" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : `<span class="t">${esc(c.title)}</span>`;
+      const title = e ? `<a class="t" href="${esc(c.url || e.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : `<span class="t">${esc(c.title)}</span>`;
       return `<li class="card${isUnread(c) ? " unread" : ""}">
         <span class="what ${c.type}">${CH[c.type] || esc(c.type)}</span>
         <span class="when">${ago(c.at)}</span>
@@ -230,6 +259,7 @@
         <span class="det">${longDate(c.start)} · ${(c.cats || []).map((k) => CAT_LABEL[k]).join(", ") || "sense categoria indicada"}${detail}</span>
       </li>`;
     }).join("")}</ul>`;
+    bindCopy($("#tab-news"));
   }
   function updateBadge() {
     const n = relevantChanges().filter(isUnread).length;
