@@ -1,13 +1,11 @@
 (() => {
-  const CATS = [
-    ["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"],
-  ];
+  const CATS = [["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"]];
   const CAT_LABEL = Object.fromEntries(CATS);
   const LS = "agendaAtletismeCat:v1";
   const saved = JSON.parse(localStorage.getItem(LS) || "{}");
   const state = {
-    cats: saved.cats || [],          // vacío = todas
-    mods: saved.mods || [],          // vacío = todas
+    cats: saved.cats || [],          // buit = totes
+    mods: saved.mods || [],          // buit = totes
     unknown: !!saved.unknown,
     onlyHorari: false,
     q: "",
@@ -19,24 +17,25 @@
     cats: state.cats, mods: state.mods, unknown: state.unknown, lastSeen: state.lastSeen,
   }));
 
-  let EVENTS = [], CHANGES = [], UPDATED = null;
+  let EVENTS = [], CHANGES = [], UPDATED = null, pendingSeen = null;
   const $ = (s) => document.querySelector(s);
   const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Madrid" });
   const d = (iso) => new Date(iso + "T12:00:00");
-  const WD = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"];
-  const MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+  const WD = ["dg", "dl", "dt", "dc", "dj", "dv", "ds"];
+  const MONTHS = ["gener", "febrer", "març", "abril", "maig", "juny", "juliol", "agost", "setembre", "octubre", "novembre", "desembre"];
+  const MONTHS_DE = ["de gener", "de febrer", "de març", "d’abril", "de maig", "de juny", "de juliol", "d’agost", "de setembre", "d’octubre", "de novembre", "de desembre"];
 
   function ago(iso) {
     const s = (Date.now() - Date.parse(iso)) / 1000;
-    if (s < 90) return "hace un momento";
-    if (s < 3600) return `hace ${Math.round(s / 60)} min`;
-    if (s < 86400) return `hace ${Math.round(s / 3600)} h`;
+    if (s < 90) return "ara mateix";
+    if (s < 3600) return `fa ${Math.round(s / 60)} min`;
+    if (s < 86400) return `fa ${Math.round(s / 3600)} h`;
     const n = Math.round(s / 86400);
-    return n === 1 ? "ayer" : `hace ${n} días`;
+    return n === 1 ? "ahir" : `fa ${n} dies`;
   }
 
-  // ---------- Filtros ----------
+  // ---------- Filtres ----------
   function matches(e) {
     if (e.cats.length) {
       if (state.cats.length && !e.cats.some((c) => state.cats.includes(c))) return false;
@@ -50,12 +49,10 @@
     return true;
   }
 
-  function chip(label, pressed, cls = "") {
-    return `<button class="chip ${cls}" aria-pressed="${pressed}">${esc(label)}</button>`;
-  }
+  const chip = (label, pressed) => `<button class="chip" aria-pressed="${pressed}">${esc(label)}</button>`;
 
   function renderChips() {
-    $("#catChips").innerHTML = CATS.map(([k, l]) => chip(l, state.cats.includes(k), "c-" + k)).join("");
+    $("#catChips").innerHTML = CATS.map(([k, l]) => chip(l, state.cats.includes(k))).join("");
     [...$("#catChips").children].forEach((b, i) => (b.onclick = () => toggle(state.cats, CATS[i][0])));
     const mods = [...new Set(EVENTS.flatMap((e) => e.modalitats))].sort((a, b) => a.localeCompare(b, "ca"));
     $("#modChips").innerHTML = mods.map((m) => chip(m, state.mods.includes(m))).join("");
@@ -68,32 +65,28 @@
   }
 
   // ---------- Agenda ----------
-  const LINK_ICON = { horari: "🕒", directe: "📡", resultats: "🏁", inscrits: "👥", inscripcio: "✍️", reglament: "📄", altres: "🔗" };
-
   function card(e, newIds) {
     const dt = d(e.start);
-    const multi = e.end !== e.start ? ` – ${d(e.end).getDate()}` : "";
+    const multi = e.end !== e.start ? `–${d(e.end).getDate()}` : "";
     const past = e.end < today;
     const horari = e.links.find((l) => l.type === "horari") || e.links.find((l) => l.type === "directe");
     const status = horari
-      ? `<a class="status ok" href="${esc(horari.url)}" target="_blank" rel="noopener">✅ Horario publicado · ${esc(horari.text)}</a>`
-      : past ? "" : `<span class="status wait">⏳ Horario pendiente</span>`;
+      ? `<a class="status ok" href="${esc(horari.url)}" target="_blank" rel="noopener" title="${esc(horari.text)}">Horari publicat</a>`
+      : past ? "<span></span>" : `<span class="status wait">Horari pendent</span>`;
     const docs = e.links.filter((l) => l !== horari)
-      .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${LINK_ICON[l.type] || "🔗"} ${esc(l.text)}</a>`).join("");
-    return `<article class="ev${past ? " past" : ""}${newIds.has(e.id) ? " is-new" : ""}">
+      .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)}</a>`).join("");
+    const cats = e.cats.length
+      ? `<span class="cats">${e.cats.map((c) => `<span class="cat t-${c}">${CAT_LABEL[c]}</span>`).join("")}</span>` : "";
+    return `<article class="ev${past ? " past" : ""}">
       <div class="date"><b>${dt.getDate()}${multi}</b><small>${WD[dt.getDay()]}</small></div>
-      <div>
-        <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></h3>
-        <div class="meta">
-          ${newIds.has(e.id) ? '<span class="newpill">NUEVA</span>' : ""}
-          ${e.cats.map((c) => `<span class="tag t-${c}">${CAT_LABEL[c]}</span>`).join("")}
-          ${e.modalitats.map((m) => `<span class="mod">${esc(m)}</span>`).join("")}
-          ${e.time ? `<span>· ${e.time} h</span>` : ""}
-        </div>
-        ${e.venue ? `<div class="venue">📍 ${esc(e.venue)}</div>` : ""}
-        ${status}
-        ${docs ? `<div class="docs">${docs}</div>` : ""}
+      <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>${newIds.has(e.id) ? '<span class="new">Nova</span>' : ""}</h3>
+      ${status}
+      <div class="meta">
+        ${cats}
+        <span>${e.modalitats.map(esc).join(" · ")}</span>
+        ${e.venue ? `<span>${esc(e.venue)}${e.time ? " · " + e.time + " h" : ""}</span>` : ""}
       </div>
+      ${docs ? `<div class="docs">${docs}</div>` : ""}
     </article>`;
   }
 
@@ -104,15 +97,15 @@
     const upcoming = list.filter((e) => e.end >= today);
     const shown = state.showPast ? [...past, ...upcoming] : upcoming;
     let html = "";
-    if (past.length) html += `<button class="more" id="togglePast">${state.showPast ? "Ocultar" : "Ver"} competiciones pasadas (${past.length})</button>`;
-    if (!shown.length) html += `<p class="empty">No hay competiciones con estos filtros.</p>`;
+    if (past.length) html += `<button class="more" id="togglePast">${state.showPast ? "Amaga" : "Mostra"} les competicions passades (${past.length})</button>`;
+    if (!shown.length) html += `<p class="empty">No hi ha competicions amb aquests filtres.</p>`;
     let curMonth = "";
     for (const e of shown) {
       const m = e.start.slice(0, 7);
       if (m !== curMonth) {
         curMonth = m;
         const n = shown.filter((x) => x.start.startsWith(m)).length;
-        html += `<h2 class="month">${MONTHS[+m.slice(5) - 1]} ${m.slice(0, 4)} <span>${n} ${n === 1 ? "competición" : "competiciones"}</span></h2>`;
+        html += `<h2 class="month">${MONTHS[+m.slice(5) - 1]} ${m.slice(0, 4)} <span>${n} ${n === 1 ? "competició" : "competicions"}</span></h2>`;
       }
       html += card(e, newIds);
     }
@@ -121,42 +114,38 @@
     if (tp) tp.onclick = () => { state.showPast = !state.showPast; renderAgenda(); };
   }
 
-  // ---------- Novedades ----------
+  // ---------- Novetats ----------
   const isUnread = (c) => !state.lastSeen || c.at > state.lastSeen;
   const CH = {
-    nova: ["🆕", "Nueva competición"],
-    horari: ["🕒", "Horario publicado"],
-    document: ["📄", "Nuevo documento"],
-    data: ["📅", "Cambio de fecha"],
-    lloc: ["📍", "Cambio de lugar"],
-    eliminada: ["❌", "Retirada del calendario"],
+    nova: "Nova competició",
+    horari: "Horari publicat",
+    document: "Nou document",
+    data: "Canvi de data",
+    lloc: "Canvi de lloc",
+    eliminada: "Retirada del calendari",
   };
   function relevantChanges() {
     const byId = new Map(EVENTS.map((e) => [e.id, e]));
-    return CHANGES.filter((c) => {
-      const e = byId.get(c.id) || { ...c, links: [], hasHorari: false, venue: "" };
-      return matches(e);
-    });
+    return CHANGES.filter((c) => matches(byId.get(c.id) || { ...c, links: [], hasHorari: false, venue: "" }));
   }
   function renderNews() {
     const list = relevantChanges();
     const byId = new Map(EVENTS.map((e) => [e.id, e]));
     if (!list.length) {
-      $("#tab-news").innerHTML = `<p class="empty">Todavía no hay novedades con estos filtros.<br>La web revisa la Federació cada hora y aquí aparecerán las competiciones nuevas, los horarios publicados y los cambios.</p>`;
+      $("#tab-news").innerHTML = `<p class="empty">Encara no hi ha novetats amb aquests filtres.<br>Aquí apareixeran les competicions noves, els horaris publicats i els canvis de data o lloc.</p>`;
       return;
     }
     $("#tab-news").innerHTML = `<ul class="news">${list.slice(0, 150).map((c) => {
-      const [ico, what] = CH[c.type] || ["•", c.type];
       const e = byId.get(c.id);
       const date = d(c.start);
+      const detail = c.detail ? " · " + esc(c.detail.replace(/(\d{4})-(\d\d)-(\d\d)/g, (_, y, m, dd) => `${+dd}/${+m}`)) : "";
+      const title = e ? `<a class="t" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : `<span class="t">${esc(c.title)}</span>`;
       return `<li class="${isUnread(c) ? "unread" : ""}">
-        <span class="ico">${ico}</span>
-        <div>
-          <span class="when">${ago(c.at)}</span>
-          <div class="what ${c.type}">${what}</div>
-          <a href="${esc(e ? e.url : "#")}" target="_blank" rel="noopener">${esc(c.title)}</a>
-          <div class="det">${date.getDate()} ${MONTHS[date.getMonth()]} · ${(c.cats || []).map((k) => CAT_LABEL[k]).join(", ") || "sin categoría indicada"}${c.detail ? " · " + esc(c.detail.replace(/(\d{4})-(\d\d)-(\d\d)/g, (_, y, m, dd) => `${+dd}/${+m}`)) : ""}</div>
-        </div></li>`;
+        <span class="what ${c.type}">${CH[c.type] || esc(c.type)}</span>
+        <span class="when">${ago(c.at)}</span>
+        ${title}
+        <span class="det">${date.getDate()} ${MONTHS_DE[date.getMonth()]} · ${(c.cats || []).map((k) => CAT_LABEL[k]).join(", ") || "sense categoria indicada"}${detail}</span>
+      </li>`;
     }).join("")}</ul>`;
   }
   function updateBadge() {
@@ -166,13 +155,13 @@
     b.textContent = n > 99 ? "99+" : n;
   }
 
-  // ---------- Calendario ----------
+  // ---------- Calendari ----------
   function renderCal() {
     const base = new URL("cal/", location.href);
-    const rows = [["totes", "Todas (Sub18, Sub20, Sub23, Absolut)"], ...CATS.map(([k, l]) => [k, "Solo " + l])];
+    const rows = [["totes", "Totes les categories"], ...CATS.map(([k, l]) => [k, "Només " + l])];
     $("#tab-cal").innerHTML = `<div class="calbox">
-      <h2>Añádelo a tu calendario</h2>
-      <p>Suscríbete y las competiciones aparecerán solas en Google Calendar o en el calendario del iPhone. Se actualiza automáticamente: cuando la FCA publique el horario lo verás en la descripción del evento.</p>
+      <h2>Afegeix l’agenda al teu calendari</h2>
+      <p>Subscriu-t’hi i les competicions apareixeran soles a Google Calendar o al calendari de l’iPhone. S’actualitza automàticament; quan es publiqui l’horari el veuràs a la descripció de l’esdeveniment.</p>
       ${rows.map(([k, l]) => {
         const https = new URL(k + ".ics", base).href;
         const webcal = https.replace(/^https?:/, "webcal:");
@@ -180,21 +169,21 @@
         return `<div class="calrow"><b>${l}</b>
           <a class="btn primary" href="${esc(webcal)}">iPhone / Mac</a>
           <a class="btn" href="${esc(google)}" target="_blank" rel="noopener">Google Calendar</a>
-          <button class="btn" data-copy="${esc(https)}">Copiar enlace</button></div>`;
+          <button class="btn" data-copy="${esc(https)}">Copia l’enllaç</button></div>`;
       }).join("")}
     </div>
     <div class="calbox">
-      <h2>Instalar como app</h2>
-      <p><b>iPhone:</b> abre esta web en Safari → botón Compartir → “Añadir a pantalla de inicio”.<br>
-      <b>Android:</b> en Chrome → menú ⋮ → “Añadir a pantalla de inicio”.</p>
+      <h2>Instal·la-la com una app</h2>
+      <p><b>iPhone:</b> obre aquesta web a Safari, toca Comparteix i tria «Afegeix a la pantalla d’inici».</p>
+      <p><b>Android:</b> a Chrome, obre el menú ⋮ i tria «Afegeix a la pantalla d’inici».</p>
     </div>`;
     $("#tab-cal").querySelectorAll("[data-copy]").forEach((b) => (b.onclick = async () => {
-      try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "¡Copiado!"; }
-      catch { prompt("Copia este enlace:", b.dataset.copy); }
+      try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "Copiat"; }
+      catch { prompt("Copia aquest enllaç:", b.dataset.copy); }
     }));
   }
 
-  // ---------- Pestañas ----------
+  // ---------- Pestanyes ----------
   function setTab(t) {
     state.tab = t;
     document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
@@ -202,13 +191,13 @@
     $(".filters").hidden = t === "cal";
     render();
     if (t === "news" && CHANGES.length) {
-      // Marca como leídas al salir de la pestaña, para que se vean resaltadas mientras se leen.
+      // Es marquen com a llegides en sortir de la pestanya, perquè es vegin destacades mentre es llegeixen.
       pendingSeen = CHANGES[0].at;
     } else if (pendingSeen) {
       state.lastSeen = pendingSeen; pendingSeen = null; persist(); render();
     }
+    window.scrollTo(0, 0);
   }
-  let pendingSeen = null;
   window.addEventListener("pagehide", () => { if (pendingSeen) { state.lastSeen = pendingSeen; persist(); } });
 
   function render() {
@@ -225,7 +214,7 @@
       fetch("data/changes.json" + bust).then((r) => r.json()).catch(() => []),
     ]);
     EVENTS = ev.events; UPDATED = ev.updated; CHANGES = ch;
-    $("#updated").textContent = "· actualizado " + ago(UPDATED);
+    $("#updated").textContent = " · actualitzat " + ago(UPDATED);
     renderChips(); render();
   }
 
@@ -236,7 +225,7 @@
   $("#unknown").onchange = (e) => { state.unknown = e.target.checked; persist(); render(); };
 
   load().catch((err) => {
-    $("#tab-agenda").innerHTML = `<p class="empty">No se han podido cargar los datos. Prueba a recargar.</p>`;
+    $("#tab-agenda").innerHTML = `<p class="empty">No s’han pogut carregar les dades. Torna-ho a provar.</p>`;
     console.error(err);
   });
   setInterval(() => load().catch(() => {}), 10 * 60 * 1000);

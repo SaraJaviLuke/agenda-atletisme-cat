@@ -1,51 +1,49 @@
 <!doctype html>
-<html lang="es">
+<html lang="ca">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Agenda Atletisme CAT · Sub18 · Sub20 · Sub23 · Absolut</title>
-  <meta name="description" content="Competiciones de la Federació Catalana d'Atletisme para Sub18, Sub20, Sub23 y Absolut, con aviso de horarios publicados.">
-  <meta name="theme-color" content="#0f1b2d">
+  <meta name="description" content="Competicions de la Federació Catalana d'Atletisme per a Sub18, Sub20, Sub23 i Absolut, amb avís dels horaris publicats.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1014" media="(prefers-color-scheme: dark)">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="top">
     <div class="wrap">
       <div class="brand">
-        <span class="lane" aria-hidden="true"></span>
-        <div>
-          <h1>Agenda Atletisme CAT</h1>
-          <p class="sub">Sub18 · Sub20 · Sub23 · Absolut <span id="updated" class="updated"></span></p>
-        </div>
+        <h1>Agenda Atletisme <span>CAT</span></h1>
+        <p class="sub">Sub18 · Sub20 · Sub23 · Absolut<span id="updated"></span></p>
       </div>
       <nav class="tabs" role="tablist">
         <button role="tab" data-tab="agenda" aria-selected="true">Agenda</button>
-        <button role="tab" data-tab="news" aria-selected="false">Novedades <span id="newsBadge" class="badge" hidden></span></button>
-        <button role="tab" data-tab="cal" aria-selected="false">Calendario</button>
+        <button role="tab" data-tab="news" aria-selected="false">Novetats<span id="newsBadge" class="badge" hidden></span></button>
+        <button role="tab" data-tab="cal" aria-selected="false">Calendari</button>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="filters" aria-label="Filtros">
+    <section class="filters" aria-label="Filtres">
       <div class="row">
-        <span class="lbl">Categoría</span>
+        <span class="lbl">Categoria</span>
         <div class="chips" id="catChips"></div>
       </div>
       <div class="row">
-        <span class="lbl">Modalidad</span>
+        <span class="lbl">Modalitat</span>
         <div class="chips" id="modChips"></div>
       </div>
       <div class="row tools">
-        <input id="q" type="search" placeholder="Buscar competición o lugar…" autocomplete="off">
-        <label class="toggle"><input type="checkbox" id="onlyHorari"> Solo con horario</label>
-        <label class="toggle"><input type="checkbox" id="unknown"> Incluir sin categoría indicada <small>(crosses, curses…)</small></label>
+        <input id="q" type="search" placeholder="Cerca competició o lloc" autocomplete="off" aria-label="Cerca competició o lloc">
+        <label class="toggle"><input type="checkbox" id="onlyHorari"> Només amb horari</label>
+        <label class="toggle"><input type="checkbox" id="unknown"> Inclou sense categoria indicada</label>
       </div>
     </section>
 
@@ -55,8 +53,8 @@
   </main>
 
   <footer class="wrap foot">
-    Datos obtenidos automáticamente de <a href="https://fcatletisme.cat/calendari/" target="_blank" rel="noopener">fcatletisme.cat</a> cada hora.
-    Web no oficial: confirma siempre en la web de la Federació.
+    Dades obtingudes automàticament de <a href="https://fcatletisme.cat/calendari/" target="_blank" rel="noopener">fcatletisme.cat</a> cada hora.
+    Web no oficial: confirma sempre la informació al web de la Federació.
   </footer>
 
   <script src="app.js"></script>
