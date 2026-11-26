@@ -204,3 +204,13 @@ a.card.sq { display: flex; }
 .pick input::-moz-color-swatch { border: 0; border-radius: 50%; }
 .tabbar button span { white-space: nowrap; }
 .filters[hidden] + main { margin-top: 24px; }
+
+/* Taca de tartan blau en tocar (només a l'estil Tartan) */
+.stain { position: fixed; z-index: 60; pointer-events: none; width: var(--size, 90px); height: var(--size, 90px); margin: calc(var(--size, 90px) / -2) 0 0 calc(var(--size, 90px) / -2); border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; background: radial-gradient(circle at 42% 40%, #6fb0ff 0%, #3f8cff 40%, rgba(63, 140, 255, .35) 62%, transparent 74%); filter: blur(2.5px); opacity: 0; animation: stain 1.2s ease-out forwards; }
+.stain::after { content: ""; position: absolute; right: -14%; bottom: 2%; width: 26%; height: 22%; border-radius: 50%; background: #4a94ff; opacity: .8; }
+@keyframes stain {
+  0% { opacity: 0; transform: rotate(var(--rot, 0deg)) scale(.35); }
+  10% { opacity: .8; transform: rotate(var(--rot, 0deg)) scale(1); }
+  35% { opacity: .75; transform: rotate(var(--rot, 0deg)) scale(1.04); }
+  100% { opacity: 0; transform: rotate(var(--rot, 0deg)) scale(1.12); }
+}

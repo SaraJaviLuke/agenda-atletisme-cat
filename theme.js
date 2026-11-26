@@ -5,7 +5,8 @@
     nit:    { name: "Nit",    bg: "#09090b", ink: "#ffffff", accent: "#b6f36a" },
     blanc:  { name: "Blanc",  bg: "#ffffff", ink: "#0d0d10", accent: "#ff5a36" },
     sorra:  { name: "Sorra",  bg: "#f2ede4", ink: "#2a2420", accent: "#c8553d" },
-    tartan: { name: "Tartan", bg: "#190e0d", ink: "#fff1ea", accent: "#ff6b4a" },
+    tartan: { name: "Tartan", bg: "#0d3b86", ink: "#ffffff", accent: "#ffd84a" },
+    argila: { name: "Argila", bg: "#190e0d", ink: "#fff1ea", accent: "#ff6b4a" },
     ocea:   { name: "Oceà",   bg: "#0a1220", ink: "#eaf2ff", accent: "#5cc8ff" },
     bosc:   { name: "Bosc",   bg: "#0c1510", ink: "#eef6ee", accent: "#9be37a" },
     lila:   { name: "Lila",   bg: "#120e1c", ink: "#f3eeff", accent: "#c4a1ff" },
@@ -33,10 +34,25 @@
     s.setProperty("--ok", c.accent);
     s.setProperty("--on-accent", lum(c.accent) > 0.4 ? "#000000" : "#ffffff");
     s.colorScheme = lum(c.bg) < 0.4 ? "dark" : "light";
+    document.documentElement.dataset.theme = t.id;
     const m = document.querySelector('meta[name="theme-color"]');
     if (m) m.content = c.bg;
   }
   function set(t) { localStorage.setItem(KEY, JSON.stringify(t)); apply(t); }
+  // El tartan blau de la pista tenyeix: cada toc deixa una taca blava que s'esvaeix.
+  addEventListener("pointerdown", (e) => {
+    if (document.documentElement.dataset.theme !== "tartan") return;
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const el = document.createElement("i");
+    el.className = "stain";
+    el.style.left = e.clientX + "px";
+    el.style.top = e.clientY + "px";
+    el.style.setProperty("--rot", Math.round(Math.random() * 360) + "deg");
+    el.style.setProperty("--size", 70 + Math.round(Math.random() * 40) + "px");
+    document.body.appendChild(el);
+    el.addEventListener("animationend", () => el.remove());
+  }, { passive: true });
+
   window.Theme = { PRESETS, get, set, colors };
   apply(get());
 })();
