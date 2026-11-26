@@ -1,0 +1,6359 @@
+{
+ "updated": "2026-11-26T07:18:01Z",
+ "count": 304,
+ "events": [
+  {
+   "id": 87548,
+   "title": "Control de Promoció i Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-i-absolut-en-pista-coberta-2/",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:15"
+  },
+  {
+   "id": 87345,
+   "title": "Control de Curses",
+   "url": "https://fcatletisme.cat/event/control-de-curses-6/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Cornellà de Llobregat (Estadi Municipal Pilar Pons)",
+   "address": "Carrer del Rugby, s/n - Cornellà de Llobregat",
+   "organizer": "Cornellà At.",
+   "links": [
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70629",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-16 09:22:53"
+  },
+  {
+   "id": 87344,
+   "title": "Control de Proves Combinades per a PC",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-per-a-pc-4/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Cornellà de Llobregat (Estadi Municipal Pilar Pons)",
+   "address": "Carrer del Rugby, s/n - Cornellà de Llobregat",
+   "organizer": "Cornellà At.",
+   "links": [
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70628",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-16 09:21:55"
+  },
+  {
+   "id": 87342,
+   "title": "Trofeu Promoció (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/trofeu-promocio-3a-jornada-4/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vilanova i la Geltrú (Pistes Municipals Carme Sugrañes Blay)",
+   "address": "Ronda Ibèrica, 58, 08800",
+   "organizer": "Dinami-k CA Vilanova",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-2026-trofeupromocio.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261114-trofeupromocio3vilanova.pdf",
+     "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70409",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-15 10:48:49"
+  },
+  {
+   "id": 87343,
+   "title": "Trofeu Promoció (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/trofeu-promocio-4a-jornada-4/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vilanova i la Geltrú (Pistes Municipals Carme Sugrañes Blay)",
+   "address": "Ronda Ibèrica, 58, 08800",
+   "organizer": "Dinami-k CA Vilanova",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-2026-trofeupromocio.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261114-trofeupromocio4vilanova.pdf",
+     "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70411",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-15 10:49:00"
+  },
+  {
+   "id": 87830,
+   "title": "14a Cursa benèfica Els 10 km de Les Franqueses",
+   "url": "https://fcatletisme.cat/event/14a-cursa-benefica-els-10-km-de-les-franqueses/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Les Franqueses del Vallès",
+   "address": "",
+   "organizer": "CA a 4 el Km",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:49:57"
+  },
+  {
+   "id": 87347,
+   "title": "19è Gran Premi de Marxa Ciutat de Manresa (Memorial Enric Vilaplana)",
+   "url": "https://fcatletisme.cat/event/19e-gran-premi-de-marxa-ciutat-de-manresa-memorial-enric-vilaplana/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Manresa",
+   "address": "",
+   "organizer": "Avinent CA Manresa",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:48:02"
+  },
+  {
+   "id": 86649,
+   "title": "26è Cros Ciutat de Gavà",
+   "url": "https://fcatletisme.cat/event/26e-cros-ciutat-de-gava/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Gavà",
+   "address": "",
+   "organizer": "CA Gavà",
+   "links": [
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261115-crosgavainscrits.pdf",
+     "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70669",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-23 19:46:20"
+  },
+  {
+   "id": 86648,
+   "title": "2a Cursa de 5 i 10k de Vic",
+   "url": "https://fcatletisme.cat/event/2a-cursa-de-5-i-10k-de-vic/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vic",
+   "address": "",
+   "organizer": "Club Natació Vic-ETB",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:49:21"
+  },
+  {
+   "id": 84867,
+   "title": "32a Cursa de Muntanya del Farell",
+   "url": "https://fcatletisme.cat/event/32a-cursa-de-muntanya-del-farell-2/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Caldes de Montbui",
+   "address": "",
+   "organizer": "CN Caldes",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:48:51"
+  },
+  {
+   "id": 86647,
+   "title": "38a Milla de la Sagrada Familia",
+   "url": "https://fcatletisme.cat/event/38a-milla-de-la-sagrada-familia/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "Fundació Claror",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:53:24"
+  },
+  {
+   "id": 87346,
+   "title": "47è Campionat d’Atletisme de Fons del Ripollés (Mitja Marató)",
+   "url": "https://fcatletisme.cat/event/47e-campionat-datletisme-de-fons-del-ripolles-mitja-marato/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ripoll",
+   "address": "",
+   "organizer": "Ajuntament de Ripoll",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:58:25"
+  },
+  {
+   "id": 86650,
+   "title": "51è Cros de Santa Coloma de Farners",
+   "url": "https://fcatletisme.cat/event/51e-cros-de-santa-coloma-de-farners/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Santa Coloma de Farners",
+   "address": "",
+   "organizer": "Consell Esportiu de la Selva",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 13:55:31"
+  },
+  {
+   "id": 82885,
+   "title": "Campionat d’Espanya de 5 Km Màster",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-5-km-master/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Negreira (La Coruña)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-15 22:49:16"
+  },
+  {
+   "id": 87349,
+   "title": "38a Milles de Cerdanyola (5 Km)",
+   "url": "https://fcatletisme.cat/event/38a-milles-de-cerdanyola-5-km/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Cerdanyola del Vallès",
+   "address": "",
+   "organizer": "CE Cerdanyola Atletisme i Triatló",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-21 20:58:33"
+  },
+  {
+   "id": 87348,
+   "title": "9è Cros de Cardedeu",
+   "url": "https://fcatletisme.cat/event/9e-cros-de-cardedeu/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Cardedeu",
+   "address": "",
+   "organizer": "CA Cardedeu",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-21 20:58:16"
+  },
+  {
+   "id": 89433,
+   "title": "Control intern",
+   "url": "https://fcatletisme.cat/event/control-intern-77/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Lleida (Estadi Municipal Les Basses)",
+   "address": "Parc Alcalde Pons",
+   "organizer": "Lleida UA",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-22 21:39:38"
+  },
+  {
+   "id": 87350,
+   "title": "Jornades Prèvies Campionat per Delegacions Territorials de Girona, Lleida i Tarragona Pista Coberta Categories Promoció",
+   "url": "https://fcatletisme.cat/event/jornades-previes-campionat-per-delegacions-territorials-de-girona-lleida-i-tarragona-pista-coberta-categories-promocio/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Lleida (Estadi Municipal Les Basses)",
+   "address": "Parc Alcalde Pons",
+   "organizer": "Lleida UA",
+   "links": [
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261121-territpromociopreviespclleida.pdf",
+     "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70681",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-22 21:39:49"
+  },
+  {
+   "id": 87351,
+   "title": "Jornades Prèvies Campionat per Delegacions Territorials de Girona, Lleida i Tarragona Pista Coberta Categories Promoció",
+   "url": "https://fcatletisme.cat/event/jornades-previes-campionat-per-delegacions-territorials-de-girona-lleida-i-tarragona-pista-coberta-categories-promocio-2/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Tarragona (Estadi Natalia Rodríguez)",
+   "address": "Anella Mediterrànea, 43006",
+   "organizer": "CA Tarragona",
+   "links": [
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261121-territpromociopreviespctarragona.pdf",
+     "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70680",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-21 20:57:30"
+  },
+  {
+   "id": 87352,
+   "title": "20a Cursa de Parets (5 i 10 Km) (Circuits no homologats)",
+   "url": "https://fcatletisme.cat/event/20a-cursa-de-parets-5-i-10-km-circuits-no-homologats/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Parets del Vallès",
+   "address": "",
+   "organizer": "CA Parets",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-22 21:31:12"
+  },
+  {
+   "id": 86651,
+   "title": "27è Cros Ciutat de Girona",
+   "url": "https://fcatletisme.cat/event/27e-cros-ciutat-de-girona/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Girona",
+   "address": "",
+   "organizer": "Consell Esportiu del Gironès",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-22 21:31:30"
+  },
+  {
+   "id": 81350,
+   "title": "47a Mitja Marató Espirall – Vilafranca",
+   "url": "https://fcatletisme.cat/event/47a-mitja-marato-espirall-vilafranca/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vilafranca del Penedès",
+   "address": "",
+   "organizer": "Ajuntament de Vilafranca del Penedès",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-22 21:34:30"
+  },
+  {
+   "id": 86654,
+   "title": "53è Cros Antoni Amorós",
+   "url": "https://fcatletisme.cat/event/53e-cros-antoni-amoros/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Santa Coloma de Gramenet",
+   "address": "",
+   "organizer": "Unió Colomenca At.",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261122-crosamoros.pdf",
+     "type": "horari"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-22 21:33:08"
+  },
+  {
+   "id": 87353,
+   "title": "73è Campionat de Sabadell",
+   "url": "https://fcatletisme.cat/event/73e-campionat-de-sabadell/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Estadi Municipal Josep Molins)",
+   "address": "Camí de Can Quadres, 190, 08204",
+   "organizer": "JA Sabadell",
+   "links": [
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70690",
+     "type": "directe"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-22 21:43:53"
+  },
+  {
+   "id": 83650,
+   "title": "Campionat d’Espanya de Cros per Clubs (XXII Cross Internacional de Atapuerca)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-cros-per-clubs-xxii-cross-internacional-de-atapuerca/",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Atapuerca (Burgos)",
+   "address": "",
+   "organizer": null,
+   "links": [
+    {
+     "text": "Clubs Catalans participants",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261122-espcrosclubsclassificatscat.pdf",
+     "type": "resultats"
+    }
+   ],
+   "hasHorari": false,
+   "modified": "2026-11-22 21:35:04"
+  },
+  {
+   "id": 87549,
+   "title": "Control de Promoció i Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-i-absolut-en-pista-coberta-3/",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:15"
+  },
+  {
+   "id": 87550,
+   "title": "1a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "Cornellà de Llobregat (Estadi Municipal Pilar Pons)",
+   "address": "Carrer del Rugby, s/n - Cornellà de Llobregat",
+   "organizer": "Cornellà At.",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:56:57"
+  },
+  {
+   "id": 87357,
+   "title": "20è Míting Català de Veteranes i Veterans (8è Memorial Valentí Huch)",
+   "url": "https://fcatletisme.cat/event/20e-miting-catala-de-veteranes-i-veterans-8e-memorial-valenti-huch/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona (Estadi Joan Serrahima)",
+   "address": "Estadi Municipal Joan Serrahima Camí del Polvorí, 5-7 - Barcelona",
+   "organizer": "Barcelona Atletisme Club",
+   "links": [
+    {
+     "text": "Horari modificat amb les proves absolutes suspeses",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-meetingcatveteranshorari.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-meetingcatveteransinscrits.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 23:27:39"
+  },
+  {
+   "id": 87358,
+   "title": "Campionat d’Espanya de Clubs Màster Mixt",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-master-mixt-3/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Santa Cruz de Tenerife",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:01"
+  },
+  {
+   "id": 83655,
+   "title": "Campionat d’Espanya de Clubs Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-st/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Antequera (Màlaga)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:36:27"
+  },
+  {
+   "id": 87354,
+   "title": "Gran Premi de Marxa Ciutat de Barberà",
+   "url": "https://fcatletisme.cat/event/gran-premi-de-marxa-ciutat-de-barbera-4/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barberà del Vallès",
+   "address": "",
+   "organizer": "UA Barberà",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-gpmarxabarbera.pdf",
+     "type": "horari"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 23:23:20"
+  },
+  {
+   "id": 87356,
+   "title": "Obrim la Pista Coberta! Categoria Sub 10",
+   "url": "https://fcatletisme.cat/event/obrim-la-pista-coberta-categoria-sub-10/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [
+    {
+     "text": "Nota important",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810nota.pdf",
+     "type": "reglament"
+    },
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810inscrits.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 12:01:18"
+  },
+  {
+   "id": 87355,
+   "title": "Obrim la Pista Coberta! Categoria Sub 8",
+   "url": "https://fcatletisme.cat/event/obrim-la-pista-coberta-categoria-sub-8/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [
+    {
+     "text": "Nota important",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810.pdf",
+     "type": "reglament"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810inscrits.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": false,
+   "modified": "2026-11-25 12:01:28"
+  },
+  {
+   "id": 86652,
+   "title": "103a Allianz Jean Bouin (RFEA)",
+   "url": "https://fcatletisme.cat/event/103a-allianz-jean-bouin-rfea/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "Zona Vip Events",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:02"
+  },
+  {
+   "id": 86653,
+   "title": "35è Cros de Vidreres (Campionat Gironí per equips)",
+   "url": "https://fcatletisme.cat/event/35e-cros-de-vidreres/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Vidreres",
+   "address": "Vidreres",
+   "organizer": "Consell Esportiu de la Selva",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-23 17:04:57"
+  },
+  {
+   "id": 83653,
+   "title": "CIC Alcobendas-Comunidad de Madrid",
+   "url": "https://fcatletisme.cat/event/cic-alcobendas-comunidad-de-madrid/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Alcobendas (Madrid)",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:56:37"
+  },
+  {
+   "id": 87359,
+   "title": "Control de Promoció FCA Sub 12-14 ST",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-fca-sub-12-14-st/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-2026-controlsfcasub8101214pc.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlsfcasub1214pcinscrits.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 17:14:50"
+  },
+  {
+   "id": 87360,
+   "title": "Control de Proves Combinades Sub 12 ST",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub-12-st/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlcombinadessub12pc.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes admesos",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlcombinadessub12pcadmesos.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 17:17:07"
+  },
+  {
+   "id": 87361,
+   "title": "Control Sub 16-18 ST (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-st-1a-jornada/",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20262027-controlssub1618pc.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlssub1618pcinscrits.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-25 12:05:11"
+  },
+  {
+   "id": 87551,
+   "title": "Control de Promoció i Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-i-absolut-en-pista-coberta-4/",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:16"
+  },
+  {
+   "id": 83644,
+   "title": "Campionat d’Espanya de Clubs Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-master-st/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Madrid",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:05"
+  },
+  {
+   "id": 89454,
+   "title": "Control d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-dhivern-8/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vic (Estadi Municipal Josep Maria Pallàs)",
+   "address": "Antoni Vilà, s/n - Vic",
+   "organizer": "CA Vic",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 14:03:42"
+  },
+  {
+   "id": 87362,
+   "title": "Control de Promoció FCA Sub 10-12 ST",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-fca-sub-10-12-st/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-12 12:34:08"
+  },
+  {
+   "id": 87364,
+   "title": "Control de Promoció FCA Sub 8-14 ST",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-fca-sub-8-14-st/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-12 12:34:00"
+  },
+  {
+   "id": 87363,
+   "title": "Control de Proves Combinades Sub 14 Femení ST",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub-14-femeni-st/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 11:53:23"
+  },
+  {
+   "id": 87365,
+   "title": "Control de Proves Combinades Sub 14 Masculí ST",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub-14-masculi-st/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 11:53:18"
+  },
+  {
+   "id": 87366,
+   "title": "Jornades Prèvies Campionat per Delegacions Territorials de Girona, Lleida i Tarragona Pista Coberta Categories Promoció",
+   "url": "https://fcatletisme.cat/event/jornades-previes-campionat-per-delegacions-territorials-de-girona-lleida-i-tarragona-pista-coberta-categories-promocio-3/",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Girona (Estadi Palau Sacosta)",
+   "address": "Creu de Palau - Av. Montilivi, 149 - Girona",
+   "organizer": "GEiE Gironí",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:49:57"
+  },
+  {
+   "id": 87368,
+   "title": "10a Mitja Marató de Figueres i 10 Km de Figueres (Campionat Gironí de 10 Km)",
+   "url": "https://fcatletisme.cat/event/10a-mitja-marato-de-figueres-i-10-km-de-figueres/",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Figueres",
+   "address": "",
+   "organizer": "AA Mitja Marató de Figueres",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:43:57"
+  },
+  {
+   "id": 87369,
+   "title": "1a Jornada Trofeu Natàlia Amiel ST",
+   "url": "https://fcatletisme.cat/event/1a-jornada-trofeu-natalia-amiel-st-2/",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Joventut Atlètica Sabadell",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 12:00:09"
+  },
+  {
+   "id": 87367,
+   "title": "47a Cursa de Sant Andreu (5 Km)",
+   "url": "https://fcatletisme.cat/event/47a-cursa-de-sant-andreu-5-km/",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "CN Sant Andreu",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-24 16:51:52"
+  },
+  {
+   "id": 83627,
+   "title": "Maratón Valencia Trinidad Alfonso Zurich",
+   "url": "https://fcatletisme.cat/event/maraton-valencia-trinidad-alfonso-zurich/",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Valencia",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:50:01"
+  },
+  {
+   "id": 87553,
+   "title": "24 Hores d’Ultrafons en pista de Barcelona [RFEA]",
+   "url": "https://fcatletisme.cat/event/24-hores-dultrafons-en-pista-de-barcelona-rfea-3/",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona (Estadi Joan Serrahima)",
+   "address": "Estadi Municipal Joan Serrahima Camí del Polvorí, 5-7 - Barcelona",
+   "organizer": "AE Corredors.cat",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:17"
+  },
+  {
+   "id": 87552,
+   "title": "2a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "Cornellà de Llobregat (Estadi Municipal Pilar Pons)",
+   "address": "Carrer del Rugby, s/n - Cornellà de Llobregat",
+   "organizer": "Cornellà At.",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:15"
+  },
+  {
+   "id": 87371,
+   "title": "Campionats per Delegacions Territorials de Promoció ST",
+   "url": "https://fcatletisme.cat/event/campionats-per-delegacions-territorials-de-promocio-st/",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:38:56"
+  },
+  {
+   "id": 87373,
+   "title": "Control de Proves Combinades Sub 16-18 ST",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub-16-18-st/",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 08:58:34"
+  },
+  {
+   "id": 87370,
+   "title": "Control intern",
+   "url": "https://fcatletisme.cat/event/control-intern-75/",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "modalitats": [
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Santa Coloma de Gramenet (Camp d’Atletisme Antoni Amorós)",
+   "address": "Avinguda Pallaresa, 1-31, 08924",
+   "organizer": "Unió Colomenca At.",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:43:58"
+  },
+  {
+   "id": 87372,
+   "title": "Copa Femenina i Masculina de Promoció ST",
+   "url": "https://fcatletisme.cat/event/copa-femenina-i-masculina-de-promocio-st-2/",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 09:29:36"
+  },
+  {
+   "id": 89043,
+   "title": "Jornades Atlètiques Torredembarra",
+   "url": "https://fcatletisme.cat/event/jornades-atletiques-torredembarra-9/",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Torredembarra (Estadi Municipal) Marques només a nivell català",
+   "address": "Carrer de la Riera de Gaià, 27",
+   "organizer": "CA Torredembarra",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-13 10:06:45"
+  },
+  {
+   "id": 86657,
+   "title": "23è Cros de Banyoles",
+   "url": "https://fcatletisme.cat/event/23e-cros-de-banyoles/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Banyoles",
+   "address": "",
+   "organizer": "CN Banyoles",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 16:59:24"
+  },
+  {
+   "id": 87554,
+   "title": "37a Mitja Marató i 10 Km de Vilanova i la Geltrú",
+   "url": "https://fcatletisme.cat/event/37a-mitja-marato-i-10-km-de-vilanova-i-la-geltru/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vilanova i la Geltrú",
+   "address": "",
+   "organizer": "AE Evasión Running Vilanova",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:17"
+  },
+  {
+   "id": 86658,
+   "title": "43è Cros de Vila-seca",
+   "url": "https://fcatletisme.cat/event/43e-cros-de-vila-seca/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Vila-seca",
+   "address": "",
+   "organizer": "CA Vila-seca",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:07"
+  },
+  {
+   "id": 86655,
+   "title": "44è Cros Vila de Ripollet",
+   "url": "https://fcatletisme.cat/event/44e-cros-vila-de-ripollet/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Ripollet",
+   "address": "",
+   "organizer": "Ripollet UA",
+   "links": [
+    {
+     "text": "Inscripcions",
+     "url": "https://www.fotoinstant.com/index.php?controlador=events&accion=inscripcions&id=352&lang=ca",
+     "type": "inscripcio"
+    }
+   ],
+   "hasHorari": false,
+   "modified": "2026-11-19 09:36:39"
+  },
+  {
+   "id": 86656,
+   "title": "48a Cursa de La Sagrera (5 i 10 Km)",
+   "url": "https://fcatletisme.cat/event/48a-cursa-de-la-sagrera-5-i-10-km/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "Comissió de Festes de La Sagrera",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:06"
+  },
+  {
+   "id": 80239,
+   "title": "Campionat d’Espanya de 10 Km Marxa en ruta Màster",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-10-km-marxa-en-ruta-master-4/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Castro Urdiales",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:09"
+  },
+  {
+   "id": 80237,
+   "title": "Campionat d’Espanya de Marxa d’Hivern de Promoció",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-marxa-dhivern-de-promocio-9/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Marxa",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Castro Urdiales",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:57:13"
+  },
+  {
+   "id": 83631,
+   "title": "Campionat d’Europa de Cros",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-de-cros-11/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Belgrado (SRB)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:50:01"
+  },
+  {
+   "id": 87376,
+   "title": "Control Absolut-Sub20 ST (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-1a-jornada/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 16:17:11"
+  },
+  {
+   "id": 87375,
+   "title": "Control Sub 16-18 ST (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-st-2a-jornada/",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-13 12:31:27"
+  },
+  {
+   "id": 87555,
+   "title": "2n Control d’Hivern CA Figueres",
+   "url": "https://fcatletisme.cat/event/2n-control-dhivern-ca-figueres/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Figueres (Estadi Municipal Albert Gurt)",
+   "address": "Avinguda Olimpia, s/n, 17600",
+   "organizer": "CA Figueres",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:18"
+  },
+  {
+   "id": 87556,
+   "title": "3a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:19"
+  },
+  {
+   "id": 83646,
+   "title": "Campionat d’Espanya de Clubs Sub20 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub20-st/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Zaragoza",
+   "address": "Zaragoza",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:45:02"
+  },
+  {
+   "id": 87379,
+   "title": "Control Absolut-Sub20 ST (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-2a-jornada/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 16:17:15"
+  },
+  {
+   "id": 87377,
+   "title": "Control de Nadal de Promoció FCA Sub 8-10-12-14 ST",
+   "url": "https://fcatletisme.cat/event/control-de-nadal-de-promocio-fca-sub-8-10-12-14-st/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-12 12:34:46"
+  },
+  {
+   "id": 87378,
+   "title": "Control de Proves Combinades Sub20-Sub23-Absolut ST",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub20-sub23-absolut-st/",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:02"
+  },
+  {
+   "id": 88138,
+   "title": "Festa Atlètica d’Hivern Agrupa",
+   "url": "https://fcatletisme.cat/event/festa-atletica-dhivern-agrupa/",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona (Estadi Joan Serrahima)",
+   "address": "Estadi Municipal Joan Serrahima Camí del Polvorí, 5-7 - Barcelona",
+   "organizer": "AA Catalunya",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-11 11:31:38"
+  },
+  {
+   "id": 87557,
+   "title": "1a Jornada Llançaments Llargs d’Hivern Absoluta",
+   "url": "https://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-absoluta-2/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:23"
+  },
+  {
+   "id": 89987,
+   "title": "26a Mou-te per l’Esclerosi Múltiple (5 i 10 Km) (Circuits no homologats)",
+   "url": "https://fcatletisme.cat/event/26a-mou-te-per-lesclerosi-multiple-5-i-10-km-circuits-no-homologats/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Montmeló (Circuit de Barcelona-Catalunya)",
+   "address": "",
+   "organizer": "FEM – FUNDACIÓ ESCLEROSI MÚLTIPLE",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-25 11:12:48"
+  },
+  {
+   "id": 86659,
+   "title": "Campionat de Catalunya de Cros (totes les categories) (11è Cros ATE de Tortosa – GP Eduard Fornós)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-cros-11e-cros-ate-de-tortosa-gp-eduard-fornos/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Cros",
+    "Màster"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Tortosa",
+   "address": "",
+   "organizer": "CA Terres de l’Ebre",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-23 11:08:51"
+  },
+  {
+   "id": 87381,
+   "title": "Control Absolut-Sub20 ST (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-3a-jornada/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 16:17:20"
+  },
+  {
+   "id": 87380,
+   "title": "Control Sub 16-18 ST (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-st-3a-jornada/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-13 12:31:36"
+  },
+  {
+   "id": 83629,
+   "title": "XLVI Cross Internacional de Venta de Baños",
+   "url": "https://fcatletisme.cat/event/xlvi-cross-internacional-de-venta-de-banos/",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Venta de Baños (Palencia)",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:50:03"
+  },
+  {
+   "id": 83089,
+   "title": "43a Cursa de l’Indiot – Mollerussa (5 i 10 Km)",
+   "url": "https://fcatletisme.cat/event/43a-cursa-de-lindiot-mollerussa-5-i-10-km/",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Mollerussa",
+   "address": "",
+   "organizer": "AA Xafatolls",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-01-18 12:51:33"
+  },
+  {
+   "id": 86660,
+   "title": "47a Sant Silvestre del Masnou (5 Km)",
+   "url": "https://fcatletisme.cat/event/47a-sant-silvestre-del-masnou-5-km/",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "El Masnou",
+   "address": "",
+   "organizer": "CA La Sansi",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 16:57:41"
+  },
+  {
+   "id": 83074,
+   "title": "B100 Cursa dels Nassos (5 i 10 Km)",
+   "url": "https://fcatletisme.cat/event/b100-cursa-dels-nassos-5-i-10-km/",
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "CA La Sansi",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 10:34:34"
+  },
+  {
+   "id": 83625,
+   "title": "LXII Nationale-Nederlanden San Silvestre Vallecana",
+   "url": "https://fcatletisme.cat/event/lxii-nationale-nederlanden-san-silvestre-vallecana/",
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "time": null,
+   "modalitats": [
+    "Ruta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Madrid",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:50:04"
+  },
+  {
+   "id": 87382,
+   "title": "2a Jornada Trofeu Natàlia Amiel ST",
+   "url": "https://fcatletisme.cat/event/2a-jornada-trofeu-natalia-amiel-st-2/",
+   "start": "2027-01-02",
+   "end": "2027-01-02",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Joventut Atlètica Sabadell",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 12:00:13"
+  },
+  {
+   "id": 87383,
+   "title": "Campionat de Catalunya de Clubs Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-master-st-2/",
+   "start": "2027-01-03",
+   "end": "2027-01-03",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:14"
+  },
+  {
+   "id": 87384,
+   "title": "Control Absolut-Sub20 ST (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-4a-jornada/",
+   "start": "2027-01-03",
+   "end": "2027-01-03",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:05"
+  },
+  {
+   "id": 87558,
+   "title": "Control de Promoció i Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-i-absolut-en-pista-coberta/",
+   "start": "2027-01-08",
+   "end": "2027-01-08",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:19"
+  },
+  {
+   "id": 89474,
+   "title": "4a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/4a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:27"
+  },
+  {
+   "id": 87386,
+   "title": "Campionat de Catalunya de Clubs A ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-st-2/",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 11:51:21"
+  },
+  {
+   "id": 87385,
+   "title": "Campionat de Catalunya de Clubs B ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-st-2/",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 10:26:12"
+  },
+  {
+   "id": 89476,
+   "title": "2a Jornada Llançaments Llargs d’Hivern Absoluta",
+   "url": "https://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-absoluta-2/",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:32"
+  },
+  {
+   "id": 87388,
+   "title": "Control Absolut-Sub20 ST (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-5a-jornada/",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:06"
+  },
+  {
+   "id": 87387,
+   "title": "Control Sub 16-18 ST (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-st-4a-jornada/",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:39:21"
+  },
+  {
+   "id": 89489,
+   "title": "1a Jornada Llançaments Llargs d’Hivern Sub14-16",
+   "url": "https://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-sub14-16/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:11:03"
+  },
+  {
+   "id": 89479,
+   "title": "5a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/5a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:36"
+  },
+  {
+   "id": 87559,
+   "title": "Campionat d’Andorra Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/campionat-dandorra-absolut-en-pista-coberta/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:20"
+  },
+  {
+   "id": 87392,
+   "title": "Campionat de Catalunya de 1500m i 3000 Sub 23 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-1500m-i-3000-sub-23-st/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 11:56:31"
+  },
+  {
+   "id": 87390,
+   "title": "Campionat de Catalunya de Proves Combinades Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub16-st-2/",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 11:52:24"
+  },
+  {
+   "id": 87391,
+   "title": "Campionat de Catalunya de Proves Combinades Sub20-Sub23-Absolut ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub20-sub23-absolut-st/",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 11:54:06"
+  },
+  {
+   "id": 87393,
+   "title": "Control Absolut-Sub20 ST",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:09"
+  },
+  {
+   "id": 89491,
+   "title": "Control de Promoció d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-dhivern/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:11:31"
+  },
+  {
+   "id": 87389,
+   "title": "Control Sub 16-18 (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-5a-jornada-2/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:40:56"
+  },
+  {
+   "id": 87395,
+   "title": "European DNA Meeting Clubs Promoció Mixt ST (sub18 i sub16)",
+   "url": "https://fcatletisme.cat/event/european-dna-meeting-clubs-promocio-mixt-st-sub18-i-sub16/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Zaragoza",
+   "address": "Zaragoza",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:10"
+  },
+  {
+   "id": 87394,
+   "title": "European DNA Meeting Clubs Sub20 Mixt ST",
+   "url": "https://fcatletisme.cat/event/european-dna-meeting-clubs-sub20-mixt-st/",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "Zaragoza",
+   "address": "Zaragoza",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:09"
+  },
+  {
+   "id": 89483,
+   "title": "3a Jornada Llançaments Llargs d’Hivern Absoluta",
+   "url": "https://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-absoluta/",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:41"
+  },
+  {
+   "id": 87396,
+   "title": "Campionat de Catalunya de Marxa Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-master-st-2/",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "time": null,
+   "modalitats": [
+    "Marxa",
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:23"
+  },
+  {
+   "id": 86662,
+   "title": "Campionat del Món Universitari de Cros (FISU)",
+   "url": "https://fcatletisme.cat/event/campionat-del-mon-universitari-de-cros-fisu-2/",
+   "start": "2027-01-17",
+   "end": "2027-01-18",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Changchun (CHN)",
+   "address": "",
+   "organizer": "FISU",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:11"
+  },
+  {
+   "id": 87397,
+   "title": "Control Absolut-Sub20 ST (6a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-6a-jornada/",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:11"
+  },
+  {
+   "id": 87560,
+   "title": "Campionat d’Andorra de Promoció i Control Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/campionat-dandorra-de-promocio-i-control-absolut-en-pista-coberta/",
+   "start": "2027-01-22",
+   "end": "2027-01-22",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:20"
+  },
+  {
+   "id": 87398,
+   "title": "Control Sub 16-18 ST (6a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub-16-18-st-6a-jornada/",
+   "start": "2027-01-22",
+   "end": "2027-01-22",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:41:03"
+  },
+  {
+   "id": 89481,
+   "title": "6a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+   "url": "https://fcatletisme.cat/event/6a-jornada-llancaments-llargs-dhivern-sub-18-20-2/",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:45"
+  },
+  {
+   "id": 86664,
+   "title": "Campionat d’Espanya de Cros per Federacions Autonòmiques Sub 16-18 (CSD)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-cros-per-federacions-autonomiques-sub-16-18-csd-3/",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": null,
+   "modalitats": [
+    "Cros",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Ribadavia (Ourense)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:39:57"
+  },
+  {
+   "id": 87399,
+   "title": "Campionat de Catalunya de Relleus Sub 12-14-16-18 ST (Eliminatòries i Finals)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub-12-14-16-18-st-eliminatories-i-finals/",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-23 17:18:14"
+  },
+  {
+   "id": 87400,
+   "title": "Campionat de Catalunya Sub23 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub23-st-2/",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:12"
+  },
+  {
+   "id": 89485,
+   "title": "4a Jornada Llançaments Llargs d’Hivern Absoluta",
+   "url": "https://fcatletisme.cat/event/4a-jornada-llancaments-llargs-dhivern-absoluta-2/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:49"
+  },
+  {
+   "id": 86665,
+   "title": "Campionat d’Espanya de Cros Individual i Federacions",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-cros-individual-i-federacions-5/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ribadavia (Ourense)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:13"
+  },
+  {
+   "id": 87401,
+   "title": "Campionat de Catalunya de Marxa (10 Km Absolut-S23-S20-S18 i Màster) (7è Gran Premi en ruta del KNLTS – Trofeu Pepe Berlandino)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-10-km-absolut-s23-s20-s18-i-master-7e-gran-premi-en-ruta-del-knlts-trofeu-pepe-berlandino/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Barcelona",
+   "address": "",
+   "organizer": "CA Canaletes – Sant Martí",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:13"
+  },
+  {
+   "id": 87402,
+   "title": "Campionat de Catalunya Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-master-st-2/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:28"
+  },
+  {
+   "id": 87418,
+   "title": "Control Absolut-Sub20 ST (7a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-7a-jornada/",
+   "start": "2027-01-29",
+   "end": "2027-01-29",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:12:26"
+  },
+  {
+   "id": 87404,
+   "title": "Campionat d’Espanya de Clubs ST (Copa Joma i Copa Iberdrola)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-st-copa-joma-i-copa-iberdrola/",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ourense",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:14"
+  },
+  {
+   "id": 87426,
+   "title": "Campionat de Catalunya de Proves Combinades Sub 12-14 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub-12-14-st/",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 15:48:07"
+  },
+  {
+   "id": 87403,
+   "title": "Campionat de Catalunya Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub16-st-2/",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:41:09"
+  },
+  {
+   "id": 89493,
+   "title": "2a Jornada Llançaments Llargs d’Hivern Sub14-16",
+   "url": "https://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-sub14-16/",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:12:00"
+  },
+  {
+   "id": 89487,
+   "title": "5a Jornada Llançaments Llargs d’Hivern Absoluta",
+   "url": "https://fcatletisme.cat/event/5a-jornada-llancaments-llargs-dhivern-absoluta-2/",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 10:57:54"
+  },
+  {
+   "id": 87406,
+   "title": "Campionat de Catalunya Absolut ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-absolut-st-2/",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:15"
+  },
+  {
+   "id": 87405,
+   "title": "Campionat de Catalunya de Marxa de Promoció S10-S12-S14-S16 i 5 Km Màster (4t Gran Premi de Marxa de Canet de Mar)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-de-promocio-s10-s12-s14-s16-i-5-km-master-4t-gran-premi-de-marxa-de-canet-de-mar/",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": null,
+   "modalitats": [
+    "Marxa",
+    "Màster",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Canet de Mar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:57:25"
+  },
+  {
+   "id": 89499,
+   "title": "Control de Promoció d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-dhivern-2/",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:13:41"
+  },
+  {
+   "id": 87407,
+   "title": "World Indoor Tour Gold Madrid 2027",
+   "url": "https://fcatletisme.cat/event/world-indoor-tour-gold-madrid-2027/",
+   "start": "2027-02-04",
+   "end": "2027-02-04",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Madrid",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:15"
+  },
+  {
+   "id": 87561,
+   "title": "Campionat d’Andorra de Promoció i Control Absolut en pista coberta",
+   "url": "https://fcatletisme.cat/event/campionat-dandorra-de-promocio-i-control-absolut-en-pista-coberta-2/",
+   "start": "2027-02-05",
+   "end": "2027-02-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "CTEO Ordino",
+   "address": "",
+   "organizer": "Federació Andorrana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-09 09:08:21"
+  },
+  {
+   "id": 87408,
+   "title": "Control Absolut ST",
+   "url": "https://fcatletisme.cat/event/control-absolut-st-2/",
+   "start": "2027-02-05",
+   "end": "2027-02-05",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:15"
+  },
+  {
+   "id": 89495,
+   "title": "3a Jornada Llançaments Llargs d’Hivern Sub14-16",
+   "url": "https://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-sub14-16/",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:12:20"
+  },
+  {
+   "id": 87410,
+   "title": "Campionat d’Espanya Sub23 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub23-st/",
+   "start": "2027-02-06",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:16"
+  },
+  {
+   "id": 89501,
+   "title": "Control de Promoció d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-dhivern-3/",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:13:59"
+  },
+  {
+   "id": 87409,
+   "title": "Míting Internacional de Catalunya ST",
+   "url": "https://fcatletisme.cat/event/miting-internacional-de-catalunya-st/",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:16"
+  },
+  {
+   "id": 86667,
+   "title": "Campionat d’Espanya de Cros Màster individual, clubs i relleus",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-cros-master-individual-clubs-i-relleus-4/",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Cros",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Villamanrique de la Condesa (Sevilla)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:32"
+  },
+  {
+   "id": 87412,
+   "title": "Campionat de Catalunya de Clubs Sub 20 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub-20-st/",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:17"
+  },
+  {
+   "id": 89505,
+   "title": "Campionat de Catalunya de Llançaments Llargs Màster",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs-master-4/",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:14:51"
+  },
+  {
+   "id": 87411,
+   "title": "Campionat de Catalunya de Proves Combinades Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-master-st-2/",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:51:37"
+  },
+  {
+   "id": 86666,
+   "title": "Copa d’Europa de Cros per Clubs",
+   "url": "https://fcatletisme.cat/event/copa-deuropa-de-cros-per-clubs-3/",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Albufeira (POR)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:14"
+  },
+  {
+   "id": 87413,
+   "title": "Campionat d’Espanya Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-st/",
+   "start": "2027-02-12",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 19:42:11"
+  },
+  {
+   "id": 87419,
+   "title": "Campionat d’Espanya Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub16-st/",
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Antequera (Màlaga)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:18:45"
+  },
+  {
+   "id": 89509,
+   "title": "Campionat de Catalunya de Llançaments Llargs Sub16",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs-sub16/",
+   "start": "2027-02-13",
+   "end": "2027-02-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:16:04"
+  },
+  {
+   "id": 89507,
+   "title": "Campionat de Catalunya de Llançaments Llargs Sub20, Sub23 i Absolut",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs-sub20-sub23-i-absolut/",
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:15:36"
+  },
+  {
+   "id": 89045,
+   "title": "Jornades Atlètiques Torredembarra",
+   "url": "https://fcatletisme.cat/event/jornades-atletiques-torredembarra-10/",
+   "start": "2027-02-13",
+   "end": "2027-02-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Torredembarra (Estadi Municipal) Marques només a nivell català",
+   "address": "Carrer de la Riera de Gaià, 27",
+   "organizer": "CA Torredembarra",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-13 10:07:28"
+  },
+  {
+   "id": 87424,
+   "title": "Bagà Fast Trail (CCP)",
+   "url": "https://fcatletisme.cat/event/baga-fast-trail-ccp-2/",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Bagà",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:23"
+  },
+  {
+   "id": 87420,
+   "title": "Campionat d’Espanya de Marxa Absolut-S23 i Màster (Mitja Marató) i S20-S18-S16",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-marxa-absolut-s23-i-master-mitja-marato-i-s20-s18-s16/",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Marxa",
+    "Màster"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Valencia",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:57:31"
+  },
+  {
+   "id": 87421,
+   "title": "Campionat d’Espanya de Marxa per Federacions Autonòmiques S20 i S16",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-marxa-per-federacions-autonomiques-s20-i-s16/",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Valencia",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:21"
+  },
+  {
+   "id": 89511,
+   "title": "Campionat de Catalunya de Llançaments Llargs Sub18",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs-sub18/",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:16:23"
+  },
+  {
+   "id": 87422,
+   "title": "Control Sub18-20 (7a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub18-20-7a-jornada/",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:13:47"
+  },
+  {
+   "id": 87425,
+   "title": "Campionat d’Espanya Absolut ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-absolut-st/",
+   "start": "2027-02-19",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Antequera (Màlaga)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:23"
+  },
+  {
+   "id": 89520,
+   "title": "Campionat d’Espanya de Llançaments Llargs Màster",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-llancaments-llargs-master-2/",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:50:55"
+  },
+  {
+   "id": 87415,
+   "title": "Campionat de Catalunya de Clubs A Sub12 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-sub12-st-2/",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:10:47"
+  },
+  {
+   "id": 87414,
+   "title": "Campionat de Catalunya de Clubs B Sub12 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-sub12-st-2/",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:10:29"
+  },
+  {
+   "id": 87416,
+   "title": "Campionat de Catalunya de Proves Combinades Sub18 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub18-st/",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:11:47"
+  },
+  {
+   "id": 87427,
+   "title": "Control Sub 12-14 ST",
+   "url": "https://fcatletisme.cat/event/control-sub-12-14-st/",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:41:41"
+  },
+  {
+   "id": 87428,
+   "title": "Trofeu FCA Sub 8-10 ST",
+   "url": "https://fcatletisme.cat/event/trofeu-fca-sub-8-10-st/",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:41:44"
+  },
+  {
+   "id": 87429,
+   "title": "3a Jornada Trofeu Natàlia Amiel ST",
+   "url": "https://fcatletisme.cat/event/3a-jornada-trofeu-natalia-amiel-st-2/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Joventut Atlètica Sabadell",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 12:00:18"
+  },
+  {
+   "id": 89497,
+   "title": "4a Jornada Llançaments Llargs d’Hivern Sub14",
+   "url": "https://fcatletisme.cat/event/4a-jornada-llancaments-llargs-dhivern-sub14-2/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:12:44"
+  },
+  {
+   "id": 89503,
+   "title": "Control de Promoció d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-dhivern-4/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:14:17"
+  },
+  {
+   "id": 87430,
+   "title": "Control Sub18 (8a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub18-8a-jornada/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:42:47"
+  },
+  {
+   "id": 87433,
+   "title": "Hostrailric 14 km i 24 km (TRS)",
+   "url": "https://fcatletisme.cat/event/hostrailric-14-km-i-24-km-trs/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Hostalric",
+   "address": "",
+   "organizer": "CE Hostrailric",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:27"
+  },
+  {
+   "id": 87434,
+   "title": "Sísmica Race 10 km i 24 km (CMT)",
+   "url": "https://fcatletisme.cat/event/sismica-race-10-km-i-24-km-cmt/",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sant Andreu de la Barca",
+   "address": "",
+   "organizer": "CA Sant Andreu de la Barca",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:28"
+  },
+  {
+   "id": 89517,
+   "title": "Campionat d’Espanya de Llançaments Llargs Sub16-18-20-23 i Absolut",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-llancaments-llargs-sub16-18-20-23-i-absolut/",
+   "start": "2027-02-26",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Barcelona (Estadi Joan Serrahima)",
+   "address": "Estadi Municipal Joan Serrahima Camí del Polvorí, 5-7 - Barcelona",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:18:41"
+  },
+  {
+   "id": 87423,
+   "title": "Control Absolut-Sub20 ST (8a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-st-8a-jornada/",
+   "start": "2027-02-26",
+   "end": "2027-02-26",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:14:38"
+  },
+  {
+   "id": 87436,
+   "title": "Campionat de Catalunya de Clubs A Sub14 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-sub14-st-2/",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:42:56"
+  },
+  {
+   "id": 87435,
+   "title": "Campionat de Catalunya de Clubs B Sub14 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-sub14-st-2/",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:42:52"
+  },
+  {
+   "id": 87439,
+   "title": "Campionat de Catalunya Absolut i Sub23 (Senders de Can Costa) (TRS)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-absolut-i-sub23-senders-de-can-costa-trs/",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Sant Vicenç dels Horts",
+   "address": "",
+   "organizer": "Club Esportiu Santvi",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:30"
+  },
+  {
+   "id": 89513,
+   "title": "Campionat de Catalunya de Llançaments Llargs Sub14",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-llargs-sub14/",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:16:57"
+  },
+  {
+   "id": 87438,
+   "title": "Campionat de Catalunya Sub18 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub18-st-2/",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:42:59"
+  },
+  {
+   "id": 89515,
+   "title": "Control de Promoció d’Hivern",
+   "url": "https://fcatletisme.cat/event/control-de-promocio-dhivern-5/",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:17:21"
+  },
+  {
+   "id": 87437,
+   "title": "Gran Premi de Marxa Ciutat de Viladecans",
+   "url": "https://fcatletisme.cat/event/gran-premi-de-marxa-ciutat-de-viladecans-3/",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Viladecans (Parc Torre Roja)",
+   "address": "",
+   "organizer": "CA Viladecans",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:29"
+  },
+  {
+   "id": 87440,
+   "title": "Campionat d’Europa ST",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-st/",
+   "start": "2027-03-04",
+   "end": "2027-03-07",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Valencia",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:30"
+  },
+  {
+   "id": 87441,
+   "title": "Campionat de Catalunya Sub12 ST (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub12-st-previa/",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:03"
+  },
+  {
+   "id": 87442,
+   "title": "Campionat de Catalunya Sub14 ST (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub14-st-previa/",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:06"
+  },
+  {
+   "id": 87443,
+   "title": "Oli Trail Montserrat Promoció (CCP)",
+   "url": "https://fcatletisme.cat/event/oli-trail-montserrat-promocio-ccp/",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Olesa de Montserrat",
+   "address": "",
+   "organizer": "CA Olesa",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:32"
+  },
+  {
+   "id": 87444,
+   "title": "4a Jornada Trofeu Natàlia Amiel",
+   "url": "https://fcatletisme.cat/event/4a-jornada-trofeu-natalia-amiel/",
+   "start": "2027-03-07",
+   "end": "2027-03-07",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 12:00:22"
+  },
+  {
+   "id": 87445,
+   "title": "Campionat de Catalunya Sub20 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub20-st-2/",
+   "start": "2027-03-07",
+   "end": "2027-03-07",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:33"
+  },
+  {
+   "id": 87446,
+   "title": "Oli Trail Montserrat 13 km i 24 km (CMT)",
+   "url": "https://fcatletisme.cat/event/oli-trail-montserrat-13-km-i-24-km-cmt/",
+   "start": "2027-03-07",
+   "end": "2027-03-07",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Olesa de Montserrat",
+   "address": "",
+   "organizer": "CA Olesa",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:38"
+  },
+  {
+   "id": 86668,
+   "title": "Campionat d’Espanya de Cros Universitari",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-cros-universitari/",
+   "start": "2027-03-13",
+   "end": "2027-03-13",
+   "time": null,
+   "modalitats": [
+    "Cros"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Badajoz",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-09-14 14:47:16"
+  },
+  {
+   "id": 87447,
+   "title": "Campionat d’Espanya Sub18 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub18-st/",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Salamanca",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-19 11:19:11"
+  },
+  {
+   "id": 87448,
+   "title": "Campionat de Catalunya Sub12 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub12-st/",
+   "start": "2027-03-13",
+   "end": "2027-03-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:13"
+  },
+  {
+   "id": 87449,
+   "title": "Campionat de Catalunya Sub14 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub14-st/",
+   "start": "2027-03-13",
+   "end": "2027-03-13",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:16"
+  },
+  {
+   "id": 89807,
+   "title": "Copa d’Europa de Llançaments",
+   "url": "https://fcatletisme.cat/event/copa-deuropa-de-llancaments-11/",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Nicosia (CYP)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:10:11"
+  },
+  {
+   "id": 87450,
+   "title": "Campionat d’Espanya de Marxa Absolut i Màster (Marató) 12è Gran Premi de Marxa del Vendrell",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-marxa-absolut-i-master-marato/",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Marxa",
+    "Màster"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Coma-ruga i Sant Salvador",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 16:06:13"
+  },
+  {
+   "id": 87452,
+   "title": "Campionat de Catalunya de Clubs A Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-a-sub16-st-2/",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:25"
+  },
+  {
+   "id": 87451,
+   "title": "Campionat de Catalunya de Clubs B Sub16 ST",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-b-sub16-st-2/",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:22"
+  },
+  {
+   "id": 87454,
+   "title": "Correbocs d’Ordal (TRS) (CMT)",
+   "url": "https://fcatletisme.cat/event/correbocs-dordal-trs-cmt/",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Ordal",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:42"
+  },
+  {
+   "id": 87453,
+   "title": "Petita JAB Trail (CCP)",
+   "url": "https://fcatletisme.cat/event/petita-jab-trail-ccp-2/",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "L’Espunyola (Berguedà)",
+   "address": "",
+   "organizer": "JAB-Berga",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:41"
+  },
+  {
+   "id": 89809,
+   "title": "Campionat del Món Màster ST",
+   "url": "https://fcatletisme.cat/event/campionat-del-mon-master-st/",
+   "start": "2027-03-18",
+   "end": "2027-03-26",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Pista Coberta"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Alachua (Florida, USA)",
+   "address": "",
+   "organizer": "WMA (World Master Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:14:33"
+  },
+  {
+   "id": 87455,
+   "title": "Campionat d’Espanya Sub20 ST",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub20-st/",
+   "start": "2027-03-20",
+   "end": "2027-03-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-16 19:41:37"
+  },
+  {
+   "id": 87458,
+   "title": "Campionat de Catalunya de Promoció (Rasos Sky Trail Kids) (CCP)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-promocio-rasos-sky-trail-kids-ccp/",
+   "start": "2027-03-21",
+   "end": "2027-03-21",
+   "time": null,
+   "modalitats": [
+    "Promoció",
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Castellar del Riu",
+   "address": "",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:56:23"
+  },
+  {
+   "id": 87456,
+   "title": "Copa de Promoció Sub 8-10. Tanquem la Pista Coberta",
+   "url": "https://fcatletisme.cat/event/copa-de-promocio-sub-8-10-tanquem-la-pista-coberta/",
+   "start": "2027-03-21",
+   "end": "2027-03-21",
+   "time": null,
+   "modalitats": [
+    "Pista Coberta",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sabadell (Pista Coberta de Catalunya Carme Valero)",
+   "address": "Camí de Can Quadres, 190 - Sabadell",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:43:28"
+  },
+  {
+   "id": 87459,
+   "title": "Campionat d’Espanya d’Ultra Trail",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-dultra-trail/",
+   "start": "2027-04-03",
+   "end": "2027-04-03",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "El Paso (La Palma)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:44"
+  },
+  {
+   "id": 89522,
+   "title": "Campionat de Catalunya de Relleus Sub10-12-14-16 (Eliminatòries)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-12-14-16-eliminatories/",
+   "start": "2027-04-03",
+   "end": "2027-04-03",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:22:56"
+  },
+  {
+   "id": 89526,
+   "title": "Campionat de Catalunya de Fons en pista",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-fons-en-pista-4/",
+   "start": "2027-04-04",
+   "end": "2027-04-04",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:25:08"
+  },
+  {
+   "id": 89539,
+   "title": "Control de Proves Combinades Sub14-16-18",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub14-16-18/",
+   "start": "2027-04-10",
+   "end": "2027-04-11",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:29:25"
+  },
+  {
+   "id": 89535,
+   "title": "Control Sub16-18 (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub16-18-1a-jornada/",
+   "start": "2027-04-10",
+   "end": "2027-04-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:28:27"
+  },
+  {
+   "id": 89533,
+   "title": "Control Sub8-10-12 (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub8-10-12-1a-jornada/",
+   "start": "2027-04-10",
+   "end": "2027-04-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:27:52"
+  },
+  {
+   "id": 87461,
+   "title": "Campionat d’Espanya de Trail Running per Federacions Autonòmiques",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-trail-running-per-federacions-autonomiques-6/",
+   "start": "2027-04-11",
+   "end": "2027-04-11",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Urretxu (Zumarraga)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:45"
+  },
+  {
+   "id": 89537,
+   "title": "Control Sub14 (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub14-1a-jornada/",
+   "start": "2027-04-11",
+   "end": "2027-04-11",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:28:53"
+  },
+  {
+   "id": 87462,
+   "title": "Campionat d’Europa Master Mountain y Trail Running",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-master-mountain-y-trail-running/",
+   "start": "2027-04-16",
+   "end": "2027-04-18",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ojós (Murcia)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:55:54"
+  },
+  {
+   "id": 89529,
+   "title": "Campionat de Catalunya de Clubs (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-1a-jornada/",
+   "start": "2027-04-17",
+   "end": "2027-04-18",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:26:52"
+  },
+  {
+   "id": 89524,
+   "title": "Campionat de Catalunya de Relleus Sub10-12-14-16 (Final)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-relleus-sub10-12-14-16-final/",
+   "start": "2027-04-17",
+   "end": "2027-04-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:24:38"
+  },
+  {
+   "id": 89541,
+   "title": "Control Sub16-18 (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub16-18-2a-jornada/",
+   "start": "2027-04-18",
+   "end": "2027-04-18",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:29:55"
+  },
+  {
+   "id": 87463,
+   "title": "27è Miting Internacional d’Atletisme Adaptat de L’Hospitalet – GP Sauleda",
+   "url": "https://fcatletisme.cat/event/27e-miting-internacional-datletisme-adaptat-de-lhospitalet-gp-sauleda/",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "L’Hospitalet de Llobregat (Complex Esportiu L’Hospitalet Nord)",
+   "address": "Complex Esportiu L'Hospitalet Nord Eucagest",
+   "organizer": "L’Hospitalet Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:46"
+  },
+  {
+   "id": 89543,
+   "title": "Campionat d’Espanya de Clubs Divisió d’Honor (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-divisio-dhonor-1a-jornada-9/",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:33:19"
+  },
+  {
+   "id": 89545,
+   "title": "Campionat d’Espanya de Clubs Primera Divisió (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-primera-divisio-1a-jornada-8/",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:33:11"
+  },
+  {
+   "id": 89554,
+   "title": "Control Sub16-18 (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub16-18-3a-jornada/",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:35:05"
+  },
+  {
+   "id": 89552,
+   "title": "Control Sub8-10-12 (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub8-10-12-2a-jornada/",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:34:33"
+  },
+  {
+   "id": 87464,
+   "title": "Campionat de Catalunya Màster (Trail Cerdanyola) (CMT)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-master-trail-cerdanyola-cmt/",
+   "start": "2027-04-25",
+   "end": "2027-04-25",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Sant Julià de Cerdanyola",
+   "address": "",
+   "organizer": "JAB-Berga",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:55:51"
+  },
+  {
+   "id": 89558,
+   "title": "Control de Proves Combinades Sub12",
+   "url": "https://fcatletisme.cat/event/control-de-proves-combinades-sub12/",
+   "start": "2027-04-25",
+   "end": "2027-04-25",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:36:01"
+  },
+  {
+   "id": 89556,
+   "title": "Control Sub14 (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub14-2a-jornada/",
+   "start": "2027-04-25",
+   "end": "2027-04-25",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:35:36"
+  },
+  {
+   "id": 87466,
+   "title": "Campionat d’Espanya de Trail de Pujada Vertical",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-trail-de-pujada-vertical/",
+   "start": "2027-05-01",
+   "end": "2027-05-01",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ezcaray (La Rioja)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:47"
+  },
+  {
+   "id": 89560,
+   "title": "Control Sub16-18 (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub16-18-4a-jornada/",
+   "start": "2027-05-01",
+   "end": "2027-05-01",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:36:33"
+  },
+  {
+   "id": 87467,
+   "title": "Campionat d’Espanya de Curses de Muntanya",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-curses-de-muntanya-2/",
+   "start": "2027-05-02",
+   "end": "2027-05-02",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ezcaray (La Rioja)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:48"
+  },
+  {
+   "id": 89531,
+   "title": "Campionat de Catalunya de Clubs (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-2a-jornada-2/",
+   "start": "2027-05-02",
+   "end": "2027-05-02",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:27:15"
+  },
+  {
+   "id": 89562,
+   "title": "Campionat d’Espanya de 10.000 metres (Absolut-Sub23) i 5.000 metres (Sub20-18)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-10-000-metres-absolut-sub23-i-5-000-metres-sub20-18/",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "Maó",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:52:24"
+  },
+  {
+   "id": 89814,
+   "title": "Campionat d’Espanya Universitari",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-universitari-9/",
+   "start": "2027-05-08",
+   "end": "2027-05-09",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ciudad Real",
+   "address": "",
+   "organizer": "Consejo Superior de Deportes",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:22:54"
+  },
+  {
+   "id": 89568,
+   "title": "Campionat de Catalunya de Proves Combinades Sub12-14",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub12-14/",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:41:17"
+  },
+  {
+   "id": 89566,
+   "title": "Control Sub14 (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub14-3a-jornada-2/",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:40:42"
+  },
+  {
+   "id": 89564,
+   "title": "Control Sub8-10-12 (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub8-10-12-3a-jornada/",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:39:31"
+  },
+  {
+   "id": 89570,
+   "title": "Campionat de Catalunya de Clubs Sub16",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub16-6/",
+   "start": "2027-05-09",
+   "end": "2027-05-09",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:42:46"
+  },
+  {
+   "id": 89612,
+   "title": "Campionat de Catalunya de Proves Combinades Sub16-18-20-23-Absolut",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combinades-sub16-18-20-23-absolut/",
+   "start": "2027-05-15",
+   "end": "2027-05-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23",
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:54:53"
+  },
+  {
+   "id": 87468,
+   "title": "Campionat de Catalunya de Trail Pujada Vertical (Vertical Trail Berguedà)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-trail-pujada-vertical-vertical-trail-bergueda-2/",
+   "start": "2027-05-15",
+   "end": "2027-05-15",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Berga",
+   "address": "",
+   "organizer": "JAB-Berga",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:48"
+  },
+  {
+   "id": 89606,
+   "title": "Control Sub14 (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub14-4a-jornada-2/",
+   "start": "2027-05-15",
+   "end": "2027-05-15",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:53:04"
+  },
+  {
+   "id": 89604,
+   "title": "Control Sub8-10-12 (4a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub8-10-12-4a-jornada/",
+   "start": "2027-05-15",
+   "end": "2027-05-15",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:52:33"
+  },
+  {
+   "id": 89816,
+   "title": "Espanya-Portugal de Relleus 4×100 i 4×400 Sub 18-20-23",
+   "url": "https://fcatletisme.cat/event/espanya-portugal-de-relleus-4x100-i-4x400-sub-18-20-23/",
+   "start": "2027-05-15",
+   "end": "2027-05-15",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18",
+    "sub20",
+    "sub23"
+   ],
+   "championship": false,
+   "venue": "Getafe (Madrid)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:23:48"
+  },
+  {
+   "id": 89818,
+   "title": "Campionat d’Europa de Marxa per equips",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-de-marxa-per-equips-2/",
+   "start": "2027-05-16",
+   "end": "2027-05-16",
+   "time": null,
+   "modalitats": [
+    "Marxa"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Serres (GRE)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:26:17"
+  },
+  {
+   "id": 89608,
+   "title": "Control Absolut-Sub20 (1a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-1a-jornada-2/",
+   "start": "2027-05-16",
+   "end": "2027-05-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:53:39"
+  },
+  {
+   "id": 89610,
+   "title": "Control Sub16-18 (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub16-18-5a-jornada/",
+   "start": "2027-05-16",
+   "end": "2027-05-16",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:54:08"
+  },
+  {
+   "id": 87469,
+   "title": "Lo Port Vertical",
+   "url": "https://fcatletisme.cat/event/lo-port-vertical-2/",
+   "start": "2027-05-16",
+   "end": "2027-05-16",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Tortosa",
+   "address": "",
+   "organizer": "CA Terres de l’Ebre",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:48"
+  },
+  {
+   "id": 89547,
+   "title": "Campionat d’Espanya de Clubs Divisió d’Honor (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-divisio-dhonor-2a-jornada-9/",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:32:04"
+  },
+  {
+   "id": 89550,
+   "title": "Campionat d’Espanya de Clubs Primera Divisió (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-primera-divisio-2a-jornada-8/",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-17 17:32:37"
+  },
+  {
+   "id": 89614,
+   "title": "Campionat de Catalunya de Clubs Sub14",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub14-6/",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:55:23"
+  },
+  {
+   "id": 89616,
+   "title": "Control Sub18 (6a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub18-6a-jornada-2/",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:55:53"
+  },
+  {
+   "id": 89821,
+   "title": "Copa d’Europa de 10.000 metres",
+   "url": "https://fcatletisme.cat/event/copa-deuropa-de-10-000-metres-8/",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Deva (Rou)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:25:51"
+  },
+  {
+   "id": 89618,
+   "title": "Campionat de Catalunya Sub16 (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub16-previa/",
+   "start": "2027-05-23",
+   "end": "2027-05-23",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 17:56:26"
+  },
+  {
+   "id": 89629,
+   "title": "Campionat d’Espanya Sub14",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub14-7/",
+   "start": "2027-05-29",
+   "end": "2027-05-30",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:00:48"
+  },
+  {
+   "id": 89631,
+   "title": "Campionat de Catalunya de Clubs Sub10",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub10-7/",
+   "start": "2027-05-29",
+   "end": "2027-05-29",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:01:22"
+  },
+  {
+   "id": 89633,
+   "title": "Campionat de Catalunya de Clubs Sub12",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub12-6/",
+   "start": "2027-05-29",
+   "end": "2027-05-29",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:01:47"
+  },
+  {
+   "id": 89635,
+   "title": "Control Absolut-Sub20 (2a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-2a-jornada-2/",
+   "start": "2027-05-29",
+   "end": "2027-05-29",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:02:21"
+  },
+  {
+   "id": 89637,
+   "title": "Control Sub18 (7a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub18-7a-jornada-3/",
+   "start": "2027-05-29",
+   "end": "2027-05-29",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:02:51"
+  },
+  {
+   "id": 89824,
+   "title": "Copa d’Europa de Clubs",
+   "url": "https://fcatletisme.cat/event/copa-deuropa-de-clubs-4/",
+   "start": "2027-05-29",
+   "end": "2027-05-30",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Lagoa (POR)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:27:15"
+  },
+  {
+   "id": 89639,
+   "title": "Campionat d’Espanya de Clubs Segona Divisió (Fase Final)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-segona-divisio-fase-final-8/",
+   "start": "2027-05-30",
+   "end": "2027-05-30",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:53:29"
+  },
+  {
+   "id": 89641,
+   "title": "Campionat de Catalunya Sub16 (Final)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub16-final/",
+   "start": "2027-05-30",
+   "end": "2027-05-30",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:03:59"
+  },
+  {
+   "id": 89643,
+   "title": "Campionat d’Espanya de Clubs Divisió d’Honor (Fase Final)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-divisio-dhonor-fase-final/",
+   "start": "2027-06-05",
+   "end": "2027-06-06",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:53:57"
+  },
+  {
+   "id": 89645,
+   "title": "Campionat d’Espanya de Clubs Primera Divisió (Fase Final)",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-primera-divisio-fase-final/",
+   "start": "2027-06-05",
+   "end": "2027-06-06",
+   "time": null,
+   "modalitats": [],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:54:05"
+  },
+  {
+   "id": 89651,
+   "title": "Control Absolut-Sub20 (3a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-3a-jornada-2/",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:12:09"
+  },
+  {
+   "id": 89649,
+   "title": "Control Sub14 (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub14-5a-jornada/",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:11:33"
+  },
+  {
+   "id": 89647,
+   "title": "Control Sub8-10-12 (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-sub8-10-12-5a-jornada/",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:10:59"
+  },
+  {
+   "id": 89653,
+   "title": "Campionat de Catalunya de Clubs Màster",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-master-10/",
+   "start": "2027-06-06",
+   "end": "2027-06-06",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:12:44"
+  },
+  {
+   "id": 89655,
+   "title": "Campionat de Catalunya Sub18",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub18-6/",
+   "start": "2027-06-06",
+   "end": "2027-06-06",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:13:10"
+  },
+  {
+   "id": 90039,
+   "title": "6è Míting Gust de Lleida",
+   "url": "https://fcatletisme.cat/event/6e-miting-gust-de-lleida/",
+   "start": "2027-06-10",
+   "end": "2027-06-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Lleida (Estadi Municipal Les Basses)",
+   "address": "Parc Alcalde Pons",
+   "organizer": "Lleida UA",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-25 23:14:03"
+  },
+  {
+   "id": 87471,
+   "title": "Campionat del Món Master Off-Road",
+   "url": "https://fcatletisme.cat/event/campionat-del-mon-master-off-road-2/",
+   "start": "2027-06-10",
+   "end": "2027-06-12",
+   "time": null,
+   "modalitats": [
+    "Màster",
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Klosters-Serneus",
+   "address": "",
+   "organizer": "World Mountain Running Association (WMRA)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-10 13:55:47"
+  },
+  {
+   "id": 89669,
+   "title": "Campionat d’Espanya Sub16",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub16-8/",
+   "start": "2027-06-12",
+   "end": "2027-06-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Lugo",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:54:51"
+  },
+  {
+   "id": 89661,
+   "title": "Campionat de Catalunya de Clubs Sub20",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub20-10/",
+   "start": "2027-06-12",
+   "end": "2027-06-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:14:29"
+  },
+  {
+   "id": 89657,
+   "title": "Campionat de Catalunya Sub10 (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub10-previa/",
+   "start": "2027-06-12",
+   "end": "2027-06-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:13:39"
+  },
+  {
+   "id": 89659,
+   "title": "Campionat de Catalunya Sub12 (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub12-previa/",
+   "start": "2027-06-12",
+   "end": "2027-06-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:14:04"
+  },
+  {
+   "id": 89826,
+   "title": "Portugal-Espanya de Proves Combinades",
+   "url": "https://fcatletisme.cat/event/portugal-espanya-de-proves-combinades/",
+   "start": "2027-06-12",
+   "end": "2027-06-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Lisboa (POR)",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:28:22"
+  },
+  {
+   "id": 89663,
+   "title": "Campionat de Catalunya Màster",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-master-11/",
+   "start": "2027-06-13",
+   "end": "2027-06-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:14:54"
+  },
+  {
+   "id": 89667,
+   "title": "Campionat de Catalunya Sub14 (Prèvia)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub14-previa/",
+   "start": "2027-06-13",
+   "end": "2027-06-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:15:45"
+  },
+  {
+   "id": 89665,
+   "title": "Control Absolut-Sub20 (4 Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-4-jornada/",
+   "start": "2027-06-13",
+   "end": "2027-06-13",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:15:23"
+  },
+  {
+   "id": 89828,
+   "title": "Campionat d’Europa per equips",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-per-equips-3/",
+   "start": "2027-06-18",
+   "end": "2027-06-20",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Estambul (TUR)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:29:24"
+  },
+  {
+   "id": 89675,
+   "title": "Campionat d’Espanya de Clubs Màster Primera Divisió",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-master-primera-divisio-7/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:17:43"
+  },
+  {
+   "id": 89677,
+   "title": "Campionat d’Espanya de Clubs Màster Segona Divisió",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-master-segona-divisio-7/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:18:07"
+  },
+  {
+   "id": 89685,
+   "title": "Campionat d’Espanya Sub18",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub18-8/",
+   "start": "2027-06-19",
+   "end": "2027-06-20",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:19:48"
+  },
+  {
+   "id": 89671,
+   "title": "Campionat de Catalunya Sub10 (Final)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub10-final/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:16:40"
+  },
+  {
+   "id": 89673,
+   "title": "Campionat de Catalunya Sub12 (Final)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub12-final/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:16:59"
+  },
+  {
+   "id": 89679,
+   "title": "Campionat de Catalunya Sub20",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub20-6/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:18:36"
+  },
+  {
+   "id": 89681,
+   "title": "Campionat de Catalunya Sub23",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub23-6/",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:18:57"
+  },
+  {
+   "id": 87473,
+   "title": "Internactional U18 Mountain Running Cup",
+   "url": "https://fcatletisme.cat/event/internactional-u18-mountain-running-cup/",
+   "start": "2027-06-19",
+   "end": "2027-06-20",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Szczyrk (Polònia)",
+   "address": "",
+   "organizer": "World Mountain Running Association (WMRA)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:50"
+  },
+  {
+   "id": 89683,
+   "title": "Campionat de Catalunya Sub14 (Final)",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-sub14-final/",
+   "start": "2027-06-20",
+   "end": "2027-06-20",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:19:21"
+  },
+  {
+   "id": 89689,
+   "title": "Campionat d’Espanya per Federacions Autonòmiques",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-per-federacions-autonomiques-3/",
+   "start": "2027-06-26",
+   "end": "2027-06-26",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Cáceres",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:56:09"
+  },
+  {
+   "id": 89687,
+   "title": "Campionat d’Espanya Sub18 per Federacions Autonòmiques",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub18-per-federacions-autonomiques-2/",
+   "start": "2027-06-26",
+   "end": "2027-06-26",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Cáceres",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:56:00"
+  },
+  {
+   "id": 89691,
+   "title": "Control Absolut-Sub20 (5a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-5a-jornada-2/",
+   "start": "2027-06-27",
+   "end": "2027-06-27",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-18 18:21:37"
+  },
+  {
+   "id": 89772,
+   "title": "Campionat d’Espanya Màster",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-11/",
+   "start": "2027-07-02",
+   "end": "2027-07-04",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:24:20"
+  },
+  {
+   "id": 89774,
+   "title": "Campionat d’Espanya Sub20",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub20-8/",
+   "start": "2027-07-03",
+   "end": "2027-07-04",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Vigo",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:56:56"
+  },
+  {
+   "id": 89776,
+   "title": "Control Absolut-Sub20 (6a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-6a-jornada-2/",
+   "start": "2027-07-04",
+   "end": "2027-07-04",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:25:32"
+  },
+  {
+   "id": 89782,
+   "title": "Campionat d’Espanya Sub23",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub23-8/",
+   "start": "2027-07-10",
+   "end": "2027-07-11",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:29:18"
+  },
+  {
+   "id": 89778,
+   "title": "Míting Internacional Ciutat de Barcelona",
+   "url": "https://fcatletisme.cat/event/miting-internacional-ciutat-de-barcelona-10/",
+   "start": "2027-07-10",
+   "end": "2027-07-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Barcelona (Estadi Joan Serrahima)",
+   "address": "Estadi Municipal Joan Serrahima Camí del Polvorí, 5-7 - Barcelona",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:27:11"
+  },
+  {
+   "id": 89780,
+   "title": "Control Absolut-Sub20 (7a Jornada)",
+   "url": "https://fcatletisme.cat/event/control-absolut-sub20-7a-jornada/",
+   "start": "2027-07-11",
+   "end": "2027-07-11",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20",
+    "absolut"
+   ],
+   "championship": false,
+   "venue": "a designar",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:28:40"
+  },
+  {
+   "id": 89831,
+   "title": "Campionat d’Europa Sub20",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-sub20-4/",
+   "start": "2027-07-15",
+   "end": "2027-07-18",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "Bydgoszcz (POL)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:30:26"
+  },
+  {
+   "id": 89784,
+   "title": "Campionat de Catalunya Absolut",
+   "url": "https://fcatletisme.cat/event/campionat-de-catalunya-absolut-10/",
+   "start": "2027-07-17",
+   "end": "2027-07-18",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Federació Catalana d’Atletisme",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:33:25"
+  },
+  {
+   "id": 89835,
+   "title": "Campionat d’Europa Sub23",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-sub23-4/",
+   "start": "2027-07-22",
+   "end": "2027-07-25",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub23"
+   ],
+   "championship": true,
+   "venue": "Bydgoszcz (POL)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:31:41"
+  },
+  {
+   "id": 89833,
+   "title": "Meeting Madrid 2027",
+   "url": "https://fcatletisme.cat/event/meeting-madrid-2027/",
+   "start": "2027-07-22",
+   "end": "2027-07-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Madrid (Vallehermoso)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:31:05"
+  },
+  {
+   "id": 89837,
+   "title": "Campionat Iberoamericà Sub18",
+   "url": "https://fcatletisme.cat/event/campionat-iberoamerica-sub18-2/",
+   "start": "2027-07-24",
+   "end": "2027-07-25",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [
+    "sub18"
+   ],
+   "championship": true,
+   "venue": "Madrid",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:32:43"
+  },
+  {
+   "id": 89839,
+   "title": "Festival Olímpic de la Joventut Europea",
+   "url": "https://fcatletisme.cat/event/festival-olimpic-de-la-joventut-europea-4/",
+   "start": "2027-07-25",
+   "end": "2027-07-31",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "Lignano Sabiadoro (ITA)",
+   "address": "",
+   "organizer": null,
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:34:16"
+  },
+  {
+   "id": 89786,
+   "title": "Campionat d’Espanya Absolut",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-absolut-11/",
+   "start": "2027-07-30",
+   "end": "2027-08-01",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "absolut"
+   ],
+   "championship": true,
+   "venue": "La Nucía (Alicante)",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:58:01"
+  },
+  {
+   "id": 89842,
+   "title": "Campionat del Món Universitari",
+   "url": "https://fcatletisme.cat/event/campionat-del-mon-universitari/",
+   "start": "2027-08-01",
+   "end": "2027-08-12",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Chungcheong (KOR)",
+   "address": "",
+   "organizer": "FISU",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:35:20"
+  },
+  {
+   "id": 89845,
+   "title": "Campionat d’Europa Màster",
+   "url": "https://fcatletisme.cat/event/campionat-deuropa-master-4/",
+   "start": "2027-08-11",
+   "end": "2027-08-22",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "JyvasKyla (FIN)",
+   "address": "",
+   "organizer": "EMA (European Master Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:36:04"
+  },
+  {
+   "id": 89847,
+   "title": "Campionat del Món",
+   "url": "https://fcatletisme.cat/event/campionat-del-mon-6/",
+   "start": "2027-09-10",
+   "end": "2027-09-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Pekín (CHI)",
+   "address": "",
+   "organizer": "WA (World Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:37:06"
+  },
+  {
+   "id": 89850,
+   "title": "European DNA Sub20 de Clubs",
+   "url": "https://fcatletisme.cat/event/european-dna-sub20-de-clubs/",
+   "start": "2027-09-18",
+   "end": "2027-09-19",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": false,
+   "venue": "Leiria (POR)",
+   "address": "",
+   "organizer": "EA (European Athletics)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:38:01"
+  },
+  {
+   "id": 87474,
+   "title": "6a edició Trails del Pont de Vilomara i Rocafort",
+   "url": "https://fcatletisme.cat/event/6a-edicio-trails-del-pont-de-vilomara-i-rocafort/",
+   "start": "2027-09-25",
+   "end": "2027-09-25",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": false,
+   "venue": "El Pont de Vilomara i Rocafort",
+   "address": "",
+   "organizer": "Ajuntament del Pont de Vilomara i Rocafort",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:51"
+  },
+  {
+   "id": 89852,
+   "title": "Campionat d’Espanya de Clubs Sub16",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub16-8/",
+   "start": "2027-10-02",
+   "end": "2027-10-03",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "diferents seus",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:40:14"
+  },
+  {
+   "id": 87476,
+   "title": "World Mountain Trail Running Championships (WMTRC)",
+   "url": "https://fcatletisme.cat/event/world-mountain-trail-running-championships-wmtrc/",
+   "start": "2027-10-06",
+   "end": "2027-10-10",
+   "time": null,
+   "modalitats": [
+    "Trail-Muntanya"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "Ciutat del Cap (Sud-Àfrica)",
+   "address": "",
+   "organizer": "World Mountain Running Association (WMRA)",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-05 11:44:51"
+  },
+  {
+   "id": 89854,
+   "title": "Campionat d’Espanya de Clubs Sub14",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub14-4/",
+   "start": "2027-10-09",
+   "end": "2027-10-10",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 16:41:16"
+  },
+  {
+   "id": 89794,
+   "title": "Campionat d’Espanya Màster de 10.000 metres i Milla",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-de-10-000-metres-i-milla/",
+   "start": "2027-10-16",
+   "end": "2027-10-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:41:52"
+  },
+  {
+   "id": 89792,
+   "title": "Campionat d’Espanya Màster de Pentatló de Llançaments",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-de-pentatlo-de-llancaments-3/",
+   "start": "2027-10-16",
+   "end": "2027-10-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:41:17"
+  },
+  {
+   "id": 89790,
+   "title": "Campionat d’Espanya Màster de Proves Combinades",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-de-proves-combinades-3/",
+   "start": "2027-10-16",
+   "end": "2027-10-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:40:07"
+  },
+  {
+   "id": 89788,
+   "title": "Campionat d’Espanya Sub16 per Federacions Autonòmiques",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-sub16-per-federacions-autonomiques-2/",
+   "start": "2027-10-16",
+   "end": "2027-10-17",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Promoció"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:37:44"
+  },
+  {
+   "id": 89796,
+   "title": "Campionat d’Espanya de Clubs Sub20",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub20-8/",
+   "start": "2027-10-24",
+   "end": "2027-10-24",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure"
+   ],
+   "cats": [
+    "sub20"
+   ],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:42:34"
+  },
+  {
+   "id": 89798,
+   "title": "Campionat d’Espanya Màster de Clubs Mixtes",
+   "url": "https://fcatletisme.cat/event/campionat-despanya-master-de-clubs-mixtes/",
+   "start": "2027-10-31",
+   "end": "2027-10-31",
+   "time": null,
+   "modalitats": [
+    "Aire Lliure",
+    "Màster"
+   ],
+   "cats": [],
+   "championship": true,
+   "venue": "a designar",
+   "address": "",
+   "organizer": "Real Federación Española de Atletismo",
+   "links": [],
+   "hasHorari": false,
+   "modified": "2026-11-20 12:43:09"
+  }
+ ]
+}
