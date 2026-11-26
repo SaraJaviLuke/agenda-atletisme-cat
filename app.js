@@ -1,7 +1,7 @@
 (() => {
   const CATS = [["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"]];
   const CAT_LABEL = Object.fromEntries(CATS);
-  const TITLES = { agenda: "Competicions", news: "Novetats", cal: "Calendari" };
+  const TITLES = { agenda: "Competicions", news: "Novetats", cal: "Calendari", style: "Estil" };
   const LS = "agendaAtletismeCat:v1";
   const saved = JSON.parse(localStorage.getItem(LS) || "{}");
   const state = {
@@ -297,15 +297,48 @@
     }));
   }
 
+  // ---------- Estil ----------
+  function renderStyle() {
+    const cur = Theme.get();
+    const c = cur.custom;
+    const sw = (id, name, col, sub = "") => `<button class="theme" data-id="${id}" aria-pressed="${cur.id === id}" style="--tb:${col.bg};--ti:${col.ink};--ta:${col.accent}">
+      <span class="sw"><b>Aa</b><i></i></span><span class="tn">${name}${sub}</span></button>`;
+    $("#tab-style").innerHTML = `<div class="themes">
+      ${Object.entries(Theme.PRESETS).map(([id, p]) => sw(id, p.name, p)).join("")}
+      ${sw("custom", "Personalitzat", c, "<small>Els teus colors</small>")}
+    </div>
+    <div class="card calbox">
+      <h2>Personalitzat</h2>
+      <p>Tria tres colors i la resta s’ajusta sola.</p>
+      <label class="pick">Fons<input type="color" data-k="bg" value="${c.bg}"></label>
+      <label class="pick">Text<input type="color" data-k="ink" value="${c.ink}"></label>
+      <label class="pick">Accent<input type="color" data-k="accent" value="${c.accent}"></label>
+    </div>`;
+    const root = $("#tab-style");
+    const mark = (id) => root.querySelectorAll(".theme").forEach((b) => b.setAttribute("aria-pressed", b.dataset.id === id));
+    root.querySelectorAll(".theme").forEach((b) => (b.onclick = () => {
+      Theme.set({ id: b.dataset.id, custom: Theme.get().custom });
+      mark(b.dataset.id);
+    }));
+    root.querySelectorAll(".pick input").forEach((inp) => (inp.oninput = () => {
+      const custom = { ...Theme.get().custom, [inp.dataset.k]: inp.value };
+      Theme.set({ id: "custom", custom });
+      const b = root.querySelector('.theme[data-id="custom"]');
+      b.style.setProperty("--tb", custom.bg); b.style.setProperty("--ti", custom.ink); b.style.setProperty("--ta", custom.accent);
+      mark("custom");
+    }));
+  }
+
   // ---------- Pestanyes ----------
   function setTab(t) {
     state.tab = t;
     document.querySelectorAll(".tabbar button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
-    ["agenda", "news", "cal"].forEach((k) => ($("#tab-" + k).hidden = k !== t));
+    ["agenda", "news", "cal", "style"].forEach((k) => ($("#tab-" + k).hidden = k !== t));
     $("#title").textContent = TITLES[t];
-    $(".filters").hidden = t === "cal";
-    $("#btnFilter").hidden = t === "cal";
-    $("#btnCal").hidden = t === "cal";
+    const plain = t === "cal" || t === "style";
+    $(".filters").hidden = plain;
+    $("#btnFilter").hidden = plain;
+    $("#btnCal").hidden = plain;
     render();
     if (t === "news" && CHANGES.length) {
       // Es marquen com a llegides en sortir de la pestanya, perquè es vegin destacades mentre es llegeixen.
@@ -321,6 +354,7 @@
     if (state.tab === "agenda") renderAgenda();
     if (state.tab === "news") renderNews();
     if (state.tab === "cal") renderCal();
+    if (state.tab === "style") renderStyle();
     updateBadge();
   }
 

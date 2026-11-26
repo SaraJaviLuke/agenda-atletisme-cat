@@ -6,14 +6,14 @@
   <title>Agenda Atletisme CAT · Sub18 · Sub20 · Sub23 · Absolut</title>
   <meta name="description" content="Competicions de la Federació Catalana d'Atletisme per a Sub18, Sub20, Sub23 i Absolut, amb avís dels horaris publicats.">
   <meta name="theme-color" content="#09090b">
-  <meta name="color-scheme" content="dark">
+  <script src="theme.js?v=5"></script>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <div class="wrap">
@@ -47,6 +47,7 @@
       <section id="tab-agenda" class="tab"></section>
       <section id="tab-news" class="tab" hidden></section>
       <section id="tab-cal" class="tab" hidden></section>
+      <section id="tab-style" class="tab" hidden></section>
     </main>
 
     <footer class="foot">
@@ -69,9 +70,13 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="3"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>
         <span>Calendari</span>
       </button>
+      <button role="tab" data-tab="style" aria-selected="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 0 17c1.4 0 2-.9 2-1.8 0-1.6-1.2-1.7-1.2-3 0-1 .8-1.7 1.9-1.7H17a3.5 3.5 0 0 0 3.5-3.5c0-3.9-3.8-7-8.5-7z"/><circle cx="8" cy="11" r=".6"/><circle cx="11" cy="7.5" r=".6"/><circle cx="15.5" cy="8.5" r=".6"/></svg>
+        <span>Estil</span>
+      </button>
     </div>
   </nav>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
