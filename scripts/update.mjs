@@ -124,7 +124,7 @@ function diff(prev, next, now) {
     const oldUrls = new Set(p.links.map((l) => l.url));
     for (const l of ev.links) {
       if (oldUrls.has(l.url)) continue;
-      add(l.type === "horari" || l.type === "directe" ? "horari" : "document", ev, l.text);
+      add(l.type === "horari" || l.type === "directe" ? "horari" : l.type === "inscrits" ? "inscrits" : "document", ev, l.text);
     }
   }
   const today = now.slice(0, 10);

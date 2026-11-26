@@ -1,6 +1,7 @@
 (() => {
   const CATS = [["sub18", "Sub18"], ["sub20", "Sub20"], ["sub23", "Sub23"], ["absolut", "Absolut"]];
   const CAT_LABEL = Object.fromEntries(CATS);
+  const TITLES = { agenda: "Competicions", news: "Novetats", cal: "Calendari" };
   const LS = "agendaAtletismeCat:v1";
   const saved = JSON.parse(localStorage.getItem(LS) || "{}");
   const state = {
@@ -20,11 +21,15 @@
   let EVENTS = [], CHANGES = [], UPDATED = null, pendingSeen = null;
   const $ = (s) => document.querySelector(s);
   const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const pad = (n) => String(n).padStart(2, "0");
   const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Madrid" });
   const d = (iso) => new Date(iso + "T12:00:00");
+  const daysBetween = (a, b) => Math.round((d(b) - d(a)) / 864e5);
   const WD = ["dg", "dl", "dt", "dc", "dj", "dv", "ds"];
   const MONTHS = ["gener", "febrer", "març", "abril", "maig", "juny", "juliol", "agost", "setembre", "octubre", "novembre", "desembre"];
+  const MONTHS_S = ["gen", "febr", "març", "abr", "maig", "juny", "jul", "ag", "set", "oct", "nov", "des"];
   const MONTHS_DE = ["de gener", "de febrer", "de març", "d’abril", "de maig", "de juny", "de juliol", "d’agost", "de setembre", "d’octubre", "de novembre", "de desembre"];
+  const longDate = (iso) => { const x = d(iso); return `${WD[x.getDay()]} ${x.getDate()} ${MONTHS_DE[x.getMonth()]}`; };
 
   function ago(iso) {
     const s = (Date.now() - Date.parse(iso)) / 1000;
@@ -64,30 +69,100 @@
     persist(); renderChips(); render();
   }
 
+  // ---------- Resum ----------
+  function ring(label, p, cls = "") {
+    const C = 2 * Math.PI * 21;
+    return `<div class="ring ${cls}"><svg viewBox="0 0 48 48" aria-hidden="true"><circle class="trk" cx="24" cy="24" r="21"/><circle class="val" cx="24" cy="24" r="21" stroke-dasharray="${(C * Math.max(0.04, Math.min(1, p))).toFixed(1)} ${C.toFixed(1)}"/></svg><b>${label}</b></div>`;
+  }
+
+  function dash(list, upcoming) {
+    if (!upcoming.length) return "";
+    const next = upcoming[0];
+    const left = Math.max(0, daysBetween(today, next.start));
+    const nHor = upcoming.filter((e) => e.hasHorari).length;
+    const in30 = upcoming.filter((e) => daysBetween(today, e.start) <= 30).length;
+    const news7 = relevantChanges().filter((c) => Date.now() - Date.parse(c.at) < 7 * 864e5).length;
+
+    // Dies amb competició (punts blancs) dels tres mesos vinents.
+    const byDay = new Map();
+    for (const e of list) {
+      for (let t = d(e.start); t <= d(e.end); t = new Date(+t + 864e5)) {
+        const k = `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`;
+        if (!byDay.has(k)) byDay.set(k, e);
+      }
+    }
+    const base = d(today);
+    let months = "";
+    for (let k = 0; k < 3; k++) {
+      const first = new Date(base.getFullYear(), base.getMonth() + k, 1);
+      const y = first.getFullYear(), m = first.getMonth();
+      const n = new Date(y, m + 1, 0).getDate();
+      let dots = "<span></span>".repeat((first.getDay() + 6) % 7);
+      for (let day = 1; day <= n; day++) {
+        const iso = `${y}-${pad(m + 1)}-${pad(day)}`;
+        const cls = (iso < today ? " past" : "") + (iso === today ? " today" : "");
+        const e = byDay.get(iso);
+        dots += e
+          ? `<button class="dot on${cls}" data-ev="${e.id}" title="${day} ${MONTHS_DE[m]}: ${esc(e.title)}" aria-label="${day} ${MONTHS_DE[m]}: ${esc(e.title)}"></button>`
+          : `<span class="dot${cls}"></span>`;
+      }
+      months += `<div><div class="mname">${MONTHS_S[m]}</div><div class="dots">${dots}</div></div>`;
+    }
+
+    return `<div class="bento">
+      <a class="card sq" href="#ev-${next.id}" data-ev="${next.id}">
+        ${ring(left, 1 - left / 30)}
+        <div><div class="ct">${esc(next.title)}</div>
+        <div class="cs">${left === 0 ? "Avui" : left === 1 ? "Demà" : `D’aquí a ${left} dies`} · ${d(next.start).getDate()} ${MONTHS_S[d(next.start).getMonth()]}</div></div>
+      </a>
+      <div class="card sq">
+        <div class="big">${nHor}<small>/ ${upcoming.length}</small></div>
+        <div><div class="ct">Horaris publicats</div><div class="cs">de les pròximes competicions</div></div>
+      </div>
+      <div class="card wide">
+        <div class="months">${months}</div>
+        <div class="hrow">${ring(in30, in30 / 12, "sm")}
+          <div><div class="ct">Pròxims 30 dies</div><div class="cs">${in30 === 1 ? "competició" : "competicions"} amb aquests filtres</div></div>
+        </div>
+      </div>
+      <button class="card wide strip" id="goNews">
+        <div><div class="ct">Novetats</div><div class="cs">Últims 7 dies</div></div>
+        <div class="r"><span class="big">${news7}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></div>
+      </button>
+    </div>`;
+  }
+
   // ---------- Agenda ----------
   function card(e, newIds) {
     const dt = d(e.start);
-    const multi = e.end !== e.start ? `–${d(e.end).getDate()}` : "";
+    const multi = e.end !== e.start;
     const past = e.end < today;
     const horari = e.links.find((l) => l.type === "horari") || e.links.find((l) => l.type === "directe");
     const status = horari
       ? `<a class="status ok" href="${esc(horari.url)}" target="_blank" rel="noopener" title="${esc(horari.text)}">Horari publicat</a>`
-      : past ? "<span></span>" : `<span class="status wait">Horari pendent</span>`;
+      : past ? "" : `<span class="status wait">Horari pendent</span>`;
     const docs = e.links.filter((l) => l !== horari)
       .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)}</a>`).join("");
-    const cats = e.cats.length
-      ? `<span class="cats">${e.cats.map((c) => `<span class="cat t-${c}">${CAT_LABEL[c]}</span>`).join("")}</span>` : "";
-    return `<article class="ev${past ? " past" : ""}">
-      <div class="date"><b>${dt.getDate()}${multi}</b><small>${WD[dt.getDay()]}</small></div>
-      <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>${newIds.has(e.id) ? '<span class="new">Nova</span>' : ""}</h3>
-      ${status}
-      <div class="meta">
-        ${cats}
-        <span>${e.modalitats.map(esc).join(" · ")}</span>
-        ${e.venue ? `<span>${esc(e.venue)}${e.time ? " · " + e.time + " h" : ""}</span>` : ""}
+    return `<article class="card ev${past ? " past" : ""}" id="ev-${e.id}">
+      <div class="day${horari ? " ok" : ""}${multi ? " multi" : ""}"><b>${dt.getDate()}${multi ? "–" + d(e.end).getDate() : ""}</b><small>${WD[dt.getDay()]}</small></div>
+      <div>
+        <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>${newIds.has(e.id) ? '<span class="new">Nova</span>' : ""}</h3>
+        ${e.venue ? `<p class="where">${esc(e.venue)}${e.time ? " · " + e.time + " h" : ""}</p>` : ""}
+        <div class="tags">
+          ${e.cats.map((c) => `<span class="tag cat t-${c}">${CAT_LABEL[c]}</span>`).join("")}
+          ${e.modalitats.map((m) => `<span class="tag mod">${esc(m)}</span>`).join("")}
+        </div>
+        ${status || docs ? `<div class="evfoot">${status}${docs}</div>` : ""}
       </div>
-      ${docs ? `<div class="docs">${docs}</div>` : ""}
     </article>`;
+  }
+
+  function goTo(id) {
+    const el = document.getElementById("ev-" + id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 1600);
   }
 
   function renderAgenda() {
@@ -96,9 +171,9 @@
     const past = list.filter((e) => e.end < today);
     const upcoming = list.filter((e) => e.end >= today);
     const shown = state.showPast ? [...past, ...upcoming] : upcoming;
-    let html = "";
-    if (past.length) html += `<button class="more" id="togglePast">${state.showPast ? "Amaga" : "Mostra"} les competicions passades (${past.length})</button>`;
+    let html = dash(list, upcoming);
     if (!shown.length) html += `<p class="empty">No hi ha competicions amb aquests filtres.</p>`;
+    if (past.length) html += `<button class="more" id="togglePast">${state.showPast ? "Amaga" : "Mostra"} les competicions passades (${past.length})</button>`;
     let curMonth = "";
     for (const e of shown) {
       const m = e.start.slice(0, 7);
@@ -109,9 +184,17 @@
       }
       html += card(e, newIds);
     }
-    $("#tab-agenda").innerHTML = html;
+    const root = $("#tab-agenda");
+    root.innerHTML = html;
     const tp = $("#togglePast");
     if (tp) tp.onclick = () => { state.showPast = !state.showPast; renderAgenda(); };
+    const gn = $("#goNews");
+    if (gn) gn.onclick = () => setTab("news");
+    root.querySelectorAll("[data-ev]").forEach((b) => (b.onclick = (ev) => {
+      ev.preventDefault();
+      if (!document.getElementById("ev-" + b.dataset.ev)) { state.showPast = true; renderAgenda(); }
+      goTo(b.dataset.ev);
+    }));
   }
 
   // ---------- Novetats ----------
@@ -119,6 +202,7 @@
   const CH = {
     nova: "Nova competició",
     horari: "Horari publicat",
+    inscrits: "Llista d’inscrits publicada",
     document: "Nou document",
     data: "Canvi de data",
     lloc: "Canvi de lloc",
@@ -132,19 +216,18 @@
     const list = relevantChanges();
     const byId = new Map(EVENTS.map((e) => [e.id, e]));
     if (!list.length) {
-      $("#tab-news").innerHTML = `<p class="empty">Encara no hi ha novetats amb aquests filtres.<br>Aquí apareixeran les competicions noves, els horaris publicats i els canvis de data o lloc.</p>`;
+      $("#tab-news").innerHTML = `<p class="empty">Encara no hi ha novetats amb aquests filtres.<br>Aquí apareixeran les competicions noves, els horaris i les llistes d’inscrits que es publiquin i els canvis de data o lloc.</p>`;
       return;
     }
     $("#tab-news").innerHTML = `<ul class="news">${list.slice(0, 150).map((c) => {
       const e = byId.get(c.id);
-      const date = d(c.start);
       const detail = c.detail ? " · " + esc(c.detail.replace(/(\d{4})-(\d\d)-(\d\d)/g, (_, y, m, dd) => `${+dd}/${+m}`)) : "";
       const title = e ? `<a class="t" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : `<span class="t">${esc(c.title)}</span>`;
-      return `<li class="${isUnread(c) ? "unread" : ""}">
+      return `<li class="card${isUnread(c) ? " unread" : ""}">
         <span class="what ${c.type}">${CH[c.type] || esc(c.type)}</span>
         <span class="when">${ago(c.at)}</span>
         ${title}
-        <span class="det">${date.getDate()} ${MONTHS_DE[date.getMonth()]} · ${(c.cats || []).map((k) => CAT_LABEL[k]).join(", ") || "sense categoria indicada"}${detail}</span>
+        <span class="det">${longDate(c.start)} · ${(c.cats || []).map((k) => CAT_LABEL[k]).join(", ") || "sense categoria indicada"}${detail}</span>
       </li>`;
     }).join("")}</ul>`;
   }
@@ -153,15 +236,16 @@
     const b = $("#newsBadge");
     b.hidden = !n || state.tab === "news";
     b.textContent = n > 99 ? "99+" : n;
+    $("#btnFilter").classList.toggle("active", !!(state.mods.length || state.unknown || state.onlyHorari || state.q));
   }
 
   // ---------- Calendari ----------
   function renderCal() {
     const base = new URL("cal/", location.href);
     const rows = [["totes", "Totes les categories"], ...CATS.map(([k, l]) => [k, "Només " + l])];
-    $("#tab-cal").innerHTML = `<div class="calbox">
-      <h2>Afegeix l’agenda al teu calendari</h2>
-      <p>Subscriu-t’hi i les competicions apareixeran soles a Google Calendar o al calendari de l’iPhone. S’actualitza automàticament; quan es publiqui l’horari el veuràs a la descripció de l’esdeveniment.</p>
+    $("#tab-cal").innerHTML = `<div class="card calbox">
+      <h2>Afegeix-la al teu calendari</h2>
+      <p>Subscriu-t’hi i les competicions apareixeran soles a Google Calendar o al calendari de l’iPhone. S’actualitza automàticament.</p>
       ${rows.map(([k, l]) => {
         const https = new URL(k + ".ics", base).href;
         const webcal = https.replace(/^https?:/, "webcal:");
@@ -172,7 +256,7 @@
           <button class="btn" data-copy="${esc(https)}">Copia l’enllaç</button></div>`;
       }).join("")}
     </div>
-    <div class="calbox">
+    <div class="card calbox">
       <h2>Instal·la-la com una app</h2>
       <p><b>iPhone:</b> obre aquesta web a Safari, toca Comparteix i tria «Afegeix a la pantalla d’inici».</p>
       <p><b>Android:</b> a Chrome, obre el menú ⋮ i tria «Afegeix a la pantalla d’inici».</p>
@@ -186,9 +270,12 @@
   // ---------- Pestanyes ----------
   function setTab(t) {
     state.tab = t;
-    document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
+    document.querySelectorAll(".tabbar button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
     ["agenda", "news", "cal"].forEach((k) => ($("#tab-" + k).hidden = k !== t));
+    $("#title").textContent = TITLES[t];
     $(".filters").hidden = t === "cal";
+    $("#btnFilter").hidden = t === "cal";
+    $("#btnCal").hidden = t === "cal";
     render();
     if (t === "news" && CHANGES.length) {
       // Es marquen com a llegides en sortir de la pestanya, perquè es vegin destacades mentre es llegeixen.
@@ -218,7 +305,13 @@
     renderChips(); render();
   }
 
-  document.querySelectorAll(".tabs button").forEach((b) => (b.onclick = () => setTab(b.dataset.tab)));
+  document.querySelectorAll(".tabbar button").forEach((b) => (b.onclick = () => setTab(b.dataset.tab)));
+  $("#btnCal").onclick = () => setTab("cal");
+  $("#btnFilter").onclick = () => {
+    const p = $("#panel");
+    p.hidden = !p.hidden;
+    $("#btnFilter").setAttribute("aria-expanded", !p.hidden);
+  };
   $("#q").oninput = (e) => { state.q = e.target.value.trim().toLowerCase(); render(); };
   $("#onlyHorari").onchange = (e) => { state.onlyHorari = e.target.checked; render(); };
   $("#unknown").checked = state.unknown;

@@ -5,58 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Agenda Atletisme CAT · Sub18 · Sub20 · Sub23 · Absolut</title>
   <meta name="description" content="Competicions de la Federació Catalana d'Atletisme per a Sub18, Sub20, Sub23 i Absolut, amb avís dels horaris publicats.">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0e1014" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#09090b">
+  <meta name="color-scheme" content="dark">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
-  <header class="top">
-    <div class="wrap">
-      <div class="brand">
-        <h1>Agenda Atletisme <span>CAT</span></h1>
-        <p class="sub">Sub18 · Sub20 · Sub23 · Absolut<span id="updated"></span></p>
+  <div class="wrap">
+    <header class="head">
+      <div>
+        <h1 id="title">Competicions</h1>
+        <p class="sub">Atletisme CAT<span id="updated"></span></p>
       </div>
-      <nav class="tabs" role="tablist">
-        <button role="tab" data-tab="agenda" aria-selected="true">Agenda</button>
-        <button role="tab" data-tab="news" aria-selected="false">Novetats<span id="newsBadge" class="badge" hidden></span></button>
-        <button role="tab" data-tab="cal" aria-selected="false">Calendari</button>
-      </nav>
-    </div>
-  </header>
+      <div class="actions">
+        <button id="btnFilter" class="ibtn" aria-label="Filtres" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9M15 4.5v5M9 14.5v5"/></svg>
+        </button>
+        <button id="btnCal" class="ibtn" aria-label="Afegeix al calendari">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+    </header>
 
-  <main class="wrap">
     <section class="filters" aria-label="Filtres">
-      <div class="row">
-        <span class="lbl">Categoria</span>
-        <div class="chips" id="catChips"></div>
-      </div>
-      <div class="row">
-        <span class="lbl">Modalitat</span>
-        <div class="chips" id="modChips"></div>
-      </div>
-      <div class="row tools">
+      <div class="chips" id="catChips"></div>
+      <div id="panel" class="panel" hidden>
+        <p class="lbl">Modalitat</p>
+        <div class="chips wrapchips" id="modChips"></div>
         <input id="q" type="search" placeholder="Cerca competició o lloc" autocomplete="off" aria-label="Cerca competició o lloc">
-        <label class="toggle"><input type="checkbox" id="onlyHorari"> Només amb horari</label>
-        <label class="toggle"><input type="checkbox" id="unknown"> Inclou sense categoria indicada</label>
+        <label class="toggle"><input type="checkbox" id="onlyHorari"><span>Només amb horari publicat</span></label>
+        <label class="toggle"><input type="checkbox" id="unknown"><span>Inclou sense categoria indicada</span></label>
       </div>
     </section>
 
-    <section id="tab-agenda" class="tab"></section>
-    <section id="tab-news" class="tab" hidden></section>
-    <section id="tab-cal" class="tab" hidden></section>
-  </main>
+    <main>
+      <section id="tab-agenda" class="tab"></section>
+      <section id="tab-news" class="tab" hidden></section>
+      <section id="tab-cal" class="tab" hidden></section>
+    </main>
 
-  <footer class="wrap foot">
-    Dades obtingudes automàticament de <a href="https://fcatletisme.cat/calendari/" target="_blank" rel="noopener">fcatletisme.cat</a> cada hora.
-    Web no oficial: confirma sempre la informació al web de la Federació.
-  </footer>
+    <footer class="foot">
+      Dades obtingudes automàticament de <a href="https://fcatletisme.cat/calendari/" target="_blank" rel="noopener">fcatletisme.cat</a> cada hora.
+      Web no oficial: confirma sempre la informació al web de la Federació.
+    </footer>
+  </div>
 
-  <script src="app.js"></script>
+  <nav class="tabbar" role="tablist">
+    <div>
+      <button role="tab" data-tab="agenda" aria-selected="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg>
+        <span>Agenda</span>
+      </button>
+      <button role="tab" data-tab="news" aria-selected="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15zM10 20.5a2.2 2.2 0 0 0 4 0"/></svg>
+        <span>Novetats</span><i id="newsBadge" class="badge" hidden></i>
+      </button>
+      <button role="tab" data-tab="cal" aria-selected="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="3"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>
+        <span>Calendari</span>
+      </button>
+    </div>
+  </nav>
+
+  <script src="app.js?v=3"></script>
 </body>
 </html>
