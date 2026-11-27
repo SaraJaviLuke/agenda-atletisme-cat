@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "at": "2026-11-27T09:29:59Z",
+  "type": "horari",
+  "id": 87357,
+  "title": "20è Míting Català de Veteranes i Veterans (8è Memorial Valentí Huch)",
+  "start": "2026-11-28",
+  "cats": [],
+  "modalitats": [
+   "Aire Lliure",
+   "Màster"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70725"
+ },
+ {
+  "at": "2026-11-27T09:29:59Z",
+  "type": "inscrits",
+  "id": 87550,
+  "title": "1a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+  "start": "2026-11-28",
+  "cats": [
+   "sub18",
+   "sub20"
+  ],
+  "modalitats": [
+   "Aire Lliure",
+   "Promoció"
+  ],
+  "detail": "Atletes inscrits",
+  "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-controlsllancamentscornella.pdf"
+ },
+ {
+  "at": "2026-11-27T09:29:59Z",
+  "type": "horari",
+  "id": 87550,
+  "title": "1a Jornada Llançaments Llargs d’Hivern Sub 18-20",
+  "start": "2026-11-28",
+  "cats": [
+   "sub18",
+   "sub20"
+  ],
+  "modalitats": [
+   "Aire Lliure",
+   "Promoció"
+  ],
+  "detail": "Horari modificat",
+  "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20262027-controlsllancaments.pdf"
+ }
+]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:42:39Z",
+ "updated": "2026-11-27T09:29:59Z",
  "count": 304,
  "events": [
   {
@@ -621,9 +621,20 @@
    "venue": "Cornellà de Llobregat (Estadi Municipal Pilar Pons)",
    "address": "Carrer del Rugby, s/n - Cornellà de Llobregat",
    "organizer": "Cornellà At.",
-   "links": [],
-   "hasHorari": false,
-   "modified": "2026-11-20 10:56:57"
+   "links": [
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20262027-controlsllancaments.pdf",
+     "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-controlsllancamentscornella.pdf",
+     "type": "inscrits"
+    }
+   ],
+   "hasHorari": true,
+   "modified": "2026-11-27 09:19:49"
   },
   {
    "id": 87357,
@@ -651,10 +662,15 @@
      "text": "Atletes inscrits",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-meetingcatveteransinscrits.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70725",
+     "type": "directe"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 23:27:39"
+   "modified": "2026-11-27 09:08:09"
   },
   {
    "id": 87358,
