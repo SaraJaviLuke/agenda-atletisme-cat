@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:41:33Z",
+ "updated": "2026-11-27T15:17:22Z",
  "count": 304,
  "events": [
   {
@@ -734,10 +734,15 @@
      "text": "Horari modificat",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-gpmarxabarbera.pdf",
      "type": "horari"
+    },
+    {
+     "text": "Atletes inscrits",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-gpmarxabarberainscrits.pdf",
+     "type": "inscrits"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 23:23:20"
+   "modified": "2026-11-27 15:43:50"
   },
   {
    "id": 87356,
