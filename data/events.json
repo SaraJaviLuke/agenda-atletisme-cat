@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:29:59Z",
+ "updated": "2026-11-27T11:10:45Z",
  "count": 304,
  "events": [
   {
@@ -770,10 +770,15 @@
      "text": "Atletes inscrits",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810inscrits.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70494",
+     "type": "directe"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 12:01:18"
+   "modified": "2026-11-27 10:48:25"
   },
   {
    "id": 87355,
@@ -794,17 +799,27 @@
    "links": [
     {
      "text": "Nota important",
-     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810.pdf",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810nota.pdf",
      "type": "reglament"
+    },
+    {
+     "text": "Horari modificat",
+     "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810.pdf",
+     "type": "horari"
     },
     {
      "text": "Atletes inscrits",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810inscrits.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70494",
+     "type": "directe"
     }
    ],
-   "hasHorari": false,
-   "modified": "2026-11-25 12:01:28"
+   "hasHorari": true,
+   "modified": "2026-11-27 10:48:31"
   },
   {
    "id": 86652,
@@ -889,10 +904,15 @@
      "text": "Atletes inscrits",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlsfcasub1214pcinscrits.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70750",
+     "type": "directe"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 17:14:50"
+   "modified": "2026-11-27 10:47:43"
   },
   {
    "id": 87360,
@@ -920,10 +940,15 @@
      "text": "Atletes admesos",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlcombinadessub12pcadmesos.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70789",
+     "type": "directe"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 17:17:07"
+   "modified": "2026-11-27 10:46:31"
   },
   {
    "id": 87361,
@@ -954,10 +979,15 @@
      "text": "Atletes inscrits",
      "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261129-controlssub1618pcinscrits.pdf",
      "type": "inscrits"
+    },
+    {
+     "text": "Resultats en directe",
+     "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70760",
+     "type": "directe"
     }
    ],
    "hasHorari": true,
-   "modified": "2026-11-25 12:05:11"
+   "modified": "2026-11-27 11:05:55"
   },
   {
    "id": 87551,

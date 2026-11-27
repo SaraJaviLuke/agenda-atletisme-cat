@@ -1,5 +1,92 @@
 [
  {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "horari",
+  "id": 87361,
+  "title": "Control Sub 16-18 ST (1a Jornada)",
+  "start": "2026-11-29",
+  "cats": [
+   "sub16",
+   "sub18"
+  ],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70760"
+ },
+ {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "horari",
+  "id": 87360,
+  "title": "Control de Proves Combinades Sub 12 ST",
+  "start": "2026-11-29",
+  "cats": [],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70789"
+ },
+ {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "horari",
+  "id": 87359,
+  "title": "Control de Promoció FCA Sub 12-14 ST",
+  "start": "2026-11-29",
+  "cats": [],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70750"
+ },
+ {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "horari",
+  "id": 87355,
+  "title": "Obrim la Pista Coberta! Categoria Sub 8",
+  "start": "2026-11-28",
+  "cats": [],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70494"
+ },
+ {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "document",
+  "id": 87355,
+  "title": "Obrim la Pista Coberta! Categoria Sub 8",
+  "start": "2026-11-28",
+  "cats": [],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Nota important",
+  "url": "https://fcatletisme.cat/wp-content/uploads/2026/11/reg-20261128-obrimlapcsub810nota.pdf"
+ },
+ {
+  "at": "2026-11-27T11:10:45Z",
+  "type": "horari",
+  "id": 87356,
+  "title": "Obrim la Pista Coberta! Categoria Sub 10",
+  "start": "2026-11-28",
+  "cats": [],
+  "modalitats": [
+   "Pista Coberta",
+   "Promoció"
+  ],
+  "detail": "Resultats en directe",
+  "url": "https://rfealive.me/Results/Schedule?chid=2026CAT70494"
+ },
+ {
   "at": "2026-11-27T09:29:59Z",
   "type": "horari",
   "id": 87357,
