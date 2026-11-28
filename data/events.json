@@ -1,28 +1,7 @@
 {
- "updated": "2026-11-27T23:14:49Z",
- "count": 304,
+ "updated": "2026-11-28T00:08:42Z",
+ "count": 303,
  "events": [
-  {
-   "id": 87548,
-   "title": "Control de Promoció i Absolut en pista coberta",
-   "url": "https://fcatletisme.cat/event/control-de-promocio-i-absolut-en-pista-coberta-2/",
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "time": null,
-   "modalitats": [
-    "Pista Coberta"
-   ],
-   "cats": [
-    "absolut"
-   ],
-   "championship": false,
-   "venue": "CTEO Ordino",
-   "address": "",
-   "organizer": "Federació Andorrana d’Atletisme",
-   "links": [],
-   "hasHorari": false,
-   "modified": "2026-11-09 09:08:15"
-  },
   {
    "id": 87345,
    "title": "Control de Curses",
