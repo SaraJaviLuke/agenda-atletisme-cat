@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:fca-87378@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Control de Proves Combinades Sub20-Sub23-Absolut ST
@@ -23,7 +23,7 @@ URL:https://fcatletisme.cat/event/control-de-proves-combinades-sub20-sub23
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-86659@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Campionat de Catalunya de Cros (totes les categories) (11è Cros AT
@@ -37,7 +37,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-cros-11e-cros-
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87392@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Campionat de Catalunya de 1500m i 3000 Sub 23 ST
@@ -50,7 +50,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-1500m-i-3000-s
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87391@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:Campionat de Catalunya de Proves Combinades Sub20-Sub23-Absolut ST
@@ -64,7 +64,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87400@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Campionat de Catalunya Sub23 ST
@@ -76,7 +76,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub23-st-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87401@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Campionat de Catalunya de Marxa (10 Km Absolut-S23-S20-S18 i Màste
@@ -92,7 +92,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-10-km-ab
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87410@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
 SUMMARY:Campionat d’Espanya Sub23 ST
@@ -103,7 +103,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-sub23-st/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89507@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270215
 SUMMARY:Campionat de Catalunya de Llançaments Llargs Sub20\, Sub23 i Absol
@@ -117,7 +117,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-ll
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87420@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Campionat d’Espanya de Marxa Absolut-S23 i Màster (Mitja Marató) i
@@ -131,7 +131,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-marxa-absolut-s23-
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89517@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270301
 SUMMARY:Campionat d’Espanya de Llançaments Llargs Sub16-18-20-23 i Absolut
@@ -145,7 +145,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-llancaments-llargs
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87439@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Campionat de Catalunya Absolut i Sub23 (Senders de Can Costa) (TRS
@@ -159,7 +159,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-absolut-i-sub23-s
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89562@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Campionat d’Espanya de 10.000 metres (Absolut-Sub23) i 5.000 metre
@@ -173,7 +173,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-10-000-metres-abso
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89612@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270517
 SUMMARY:Campionat de Catalunya de Proves Combinades Sub16-18-20-23-Absolut
@@ -186,7 +186,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89816@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Espanya-Portugal de Relleus 4×100 i 4×400 Sub 18-20-23
@@ -199,7 +199,7 @@ URL:https://fcatletisme.cat/event/espanya-portugal-de-relleus-4x100-i-4x40
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89681@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Campionat de Catalunya Sub23
@@ -210,7 +210,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub23-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89782@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270712
 SUMMARY:Campionat d’Espanya Sub23
@@ -221,7 +221,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-sub23-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89835@agenda-atletisme-cat
-DTSTAMP:20261128T031212Z
+DTSTAMP:20261128T041811Z
 DTSTART;VALUE=DATE:20270722
 DTEND;VALUE=DATE:20270726
 SUMMARY:Campionat d’Europa Sub23
