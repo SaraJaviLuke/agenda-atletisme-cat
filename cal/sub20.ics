@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:fca-87550@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:1a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -26,7 +26,7 @@ URL:https://fcatletisme.cat/event/1a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87552@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:2a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -40,7 +40,7 @@ URL:https://fcatletisme.cat/event/2a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87376@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Control Absolut-Sub20 ST (1a Jornada)
@@ -52,7 +52,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-1a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87556@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:3a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -65,7 +65,7 @@ URL:https://fcatletisme.cat/event/3a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-83646@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Campionat d’Espanya de Clubs Sub20 ST
@@ -76,7 +76,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-clubs-sub20-st/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87379@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Control Absolut-Sub20 ST (2a Jornada)
@@ -88,7 +88,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-2a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87378@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Control de Proves Combinades Sub20-Sub23-Absolut ST
@@ -102,7 +102,7 @@ URL:https://fcatletisme.cat/event/control-de-proves-combinades-sub20-sub23
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-86659@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Campionat de Catalunya de Cros (totes les categories) (11è Cros AT
@@ -116,7 +116,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-cros-11e-cros-
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87381@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Control Absolut-Sub20 ST (3a Jornada)
@@ -128,7 +128,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-3a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87384@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Control Absolut-Sub20 ST (4a Jornada)
@@ -140,7 +140,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-4a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89474@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:4a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -153,7 +153,7 @@ URL:https://fcatletisme.cat/event/4a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87388@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Control Absolut-Sub20 ST (5a Jornada)
@@ -165,7 +165,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-5a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89479@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:5a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -178,7 +178,7 @@ URL:https://fcatletisme.cat/event/5a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87391@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:Campionat de Catalunya de Proves Combinades Sub20-Sub23-Absolut ST
@@ -192,7 +192,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87393@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Control Absolut-Sub20 ST
@@ -204,7 +204,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87394@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:European DNA Meeting Clubs Sub20 Mixt ST
@@ -216,7 +216,7 @@ URL:https://fcatletisme.cat/event/european-dna-meeting-clubs-sub20-mixt-st
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87397@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Control Absolut-Sub20 ST (6a Jornada)
@@ -228,7 +228,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-6a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89481@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:6a Jornada Llançaments Llargs d’Hivern Sub 18-20
@@ -241,7 +241,7 @@ URL:https://fcatletisme.cat/event/6a-jornada-llancaments-llargs-dhivern-su
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87401@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Campionat de Catalunya de Marxa (10 Km Absolut-S23-S20-S18 i Màste
@@ -257,7 +257,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-marxa-10-km-ab
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87418@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Control Absolut-Sub20 ST (7a Jornada)
@@ -269,7 +269,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-7a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87412@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Campionat de Catalunya de Clubs Sub 20 ST
@@ -282,7 +282,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub-20-s
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89507@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270215
 SUMMARY:Campionat de Catalunya de Llançaments Llargs Sub20\, Sub23 i Absol
@@ -296,7 +296,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-llancaments-ll
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87420@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Campionat d’Espanya de Marxa Absolut-S23 i Màster (Mitja Marató) i
@@ -310,7 +310,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-marxa-absolut-s23-
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87421@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Campionat d’Espanya de Marxa per Federacions Autonòmiques S20 i S1
@@ -324,7 +324,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-marxa-per-federaci
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87422@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Control Sub18-20 (7a Jornada)
@@ -336,7 +336,7 @@ URL:https://fcatletisme.cat/event/control-sub18-20-7a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89517@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270301
 SUMMARY:Campionat d’Espanya de Llançaments Llargs Sub16-18-20-23 i Absolut
@@ -350,7 +350,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-llancaments-llargs
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87423@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:Control Absolut-Sub20 ST (8a Jornada)
@@ -362,7 +362,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-st-8a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87445@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Campionat de Catalunya Sub20 ST
@@ -374,7 +374,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub20-st-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-87455@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270322
 SUMMARY:Campionat d’Espanya Sub20 ST
@@ -386,7 +386,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-sub20-st/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89562@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Campionat d’Espanya de 10.000 metres (Absolut-Sub23) i 5.000 metre
@@ -400,7 +400,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-de-10-000-metres-abso
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89612@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270517
 SUMMARY:Campionat de Catalunya de Proves Combinades Sub16-18-20-23-Absolut
@@ -413,7 +413,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-proves-combina
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89816@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Espanya-Portugal de Relleus 4×100 i 4×400 Sub 18-20-23
@@ -426,7 +426,7 @@ URL:https://fcatletisme.cat/event/espanya-portugal-de-relleus-4x100-i-4x40
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89608@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:Control Absolut-Sub20 (1a Jornada)
@@ -437,7 +437,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-1a-jornada-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89635@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Control Absolut-Sub20 (2a Jornada)
@@ -448,7 +448,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-2a-jornada-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89651@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Control Absolut-Sub20 (3a Jornada)
@@ -459,7 +459,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-3a-jornada-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89661@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Campionat de Catalunya de Clubs Sub20
@@ -471,7 +471,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-de-clubs-sub20-10
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89665@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:Control Absolut-Sub20 (4 Jornada)
@@ -482,7 +482,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-4-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89679@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Campionat de Catalunya Sub20
@@ -493,7 +493,7 @@ URL:https://fcatletisme.cat/event/campionat-de-catalunya-sub20-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89691@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:Control Absolut-Sub20 (5a Jornada)
@@ -504,7 +504,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-5a-jornada-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89774@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:Campionat d’Espanya Sub20
@@ -515,7 +515,7 @@ URL:https://fcatletisme.cat/event/campionat-despanya-sub20-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89776@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Control Absolut-Sub20 (6a Jornada)
@@ -526,7 +526,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-6a-jornada-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89780@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Control Absolut-Sub20 (7a Jornada)
@@ -537,7 +537,7 @@ URL:https://fcatletisme.cat/event/control-absolut-sub20-7a-jornada/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89831@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270715
 DTEND;VALUE=DATE:20270719
 SUMMARY:Campionat d’Europa Sub20
@@ -548,7 +548,7 @@ URL:https://fcatletisme.cat/event/campionat-deuropa-sub20-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89850@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
 SUMMARY:European DNA Sub20 de Clubs
@@ -559,7 +559,7 @@ URL:https://fcatletisme.cat/event/european-dna-sub20-de-clubs/
 END:VEVENT
 BEGIN:VEVENT
 UID:fca-89796@agenda-atletisme-cat
-DTSTAMP:20261128T090945Z
+DTSTAMP:20261128T100936Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 SUMMARY:Campionat d’Espanya de Clubs Sub20
